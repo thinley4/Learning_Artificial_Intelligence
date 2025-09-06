@@ -187,6 +187,8 @@ From today, I will document my daily learning progress.
 
 **Day 2: Markov Decision Processes (MDPs)**
 
+Markov decision processes give us a way to formalize sequential decision making
+
 A Markov Decision Process models the sequential decision-making of an agent interacting with an environment. At each step, the agent selects an action from the current state, transitions to a new state, and receives a reward. This sequence of states, actions, and rewards forms a trajectory.
 
 The agent’s objective is to maximize the cumulative reward over time, not just the immediate reward from each action. This encourages the agent to consider long-term benefits when making decisions.
@@ -197,3 +199,19 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 
 **Resource:**  
 - [MDP](https://deeplizard.com/learn/video/my207WNoeyA)
+
+**Day 3: Implementing Q-Learning in Python**
+
+**Hands-on Q-Learning Implementation**
+- Implemented the Q-learning algorithm from scratch in Python to gain deeper intuitive understanding
+- The practical coding experience clarified theoretical concepts and made the algorithm more concrete
+- Translated the mathematical Q-table update formula into working code:
+
+![Q-Table Update Formula](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day3/update_q_table.png)
+
+**Key Learning Outcomes:**
+- Better understanding of how Q-values are calculated and updated iteratively
+- Practical experience with epsilon-greedy action selection
+- Implementation of the reward feedback mechanism in reinforcement learning
+
+**Project:** [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning)
