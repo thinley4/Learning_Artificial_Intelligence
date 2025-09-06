@@ -194,3 +194,6 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 **MDP Mathematical Representation**
 
 ![one](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day2/one.png)
+
+**Resource:**  
+- [MDP](https://deeplizard.com/learn/video/my207WNoeyA)
