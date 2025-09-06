@@ -185,3 +185,12 @@ From today, I will document my daily learning progress.
 - [Q-Learning Video](https://deeplizard.com/learn/video/mo96Nqlo1L8)
 
 
+**Day 2: Markov Decision Processes (MDPs)**
+
+A Markov Decision Process models the sequential decision-making of an agent interacting with an environment. At each step, the agent selects an action from the current state, transitions to a new state, and receives a reward. This sequence of states, actions, and rewards forms a trajectory.
+
+The agent’s objective is to maximize the cumulative reward over time, not just the immediate reward from each action. This encourages the agent to consider long-term benefits when making decisions.
+
+**MDP Mathematical Representation**
+
+![one](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day2/one.png)
