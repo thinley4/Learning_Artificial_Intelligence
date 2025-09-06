@@ -153,3 +153,28 @@ I built this **Reinforcement Learning project** using **Gymnasium** and **Stable
 - **GitHub link:** [Minimal Lunar Lander DQN](https://github.com/thinley4/Minimal-Lunar-Lander-DQN)  
 
 ---
+
+From today, I will document my daily learning progress.
+
+**Day 1: Q-Learning**
+
+**Exploration vs. Exploitation**  
+- Balancing exploration (trying new actions) and exploitation (choosing known best actions) is crucial in reinforcement learning.  
+- Q-Learning is a technique that helps agents learn optimal actions through experience.
+
+**Epsilon-Greedy Strategy**  
+- The agent starts with a high exploration rate (E = 1), taking random actions to discover new possibilities.  
+- As learning progresses, E decreases, and the agent exploits its knowledge more by choosing actions with higher Q-values.
+
+**How Actions Are Chosen**  
+- At the initial state, the agent selects actions randomly due to high exploration.  
+- Over time, the agent uses the epsilon-greedy strategy to balance exploration and exploitation.  
+- When exploiting, the agent picks the action with the highest Q-value for the current state from the Q-table.
+
+**Q-Learning Process**  
+- After each action, the agent observes the next state and reward, then updates the Q-value in the Q-table for the previous state-action pair.
+
+**Resource:**  
+- [Q-Learning Video](https://deeplizard.com/learn/video/mo96Nqlo1L8)
+
+
