@@ -184,6 +184,7 @@ From today, I will document my daily learning progress.
 **Resource:**  
 - [Q-Learning Video](https://deeplizard.com/learn/video/mo96Nqlo1L8)
 
+---
 
 **Day 2: Markov Decision Processes (MDPs)**
 
