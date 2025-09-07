@@ -201,6 +201,8 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 **Resource:**  
 - [MDP](https://deeplizard.com/learn/video/my207WNoeyA)
 
+---
+
 **Day 3: Implementing Q-Learning in Python**
 
 **Hands-on Q-Learning Implementation**
@@ -217,6 +219,7 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 
 **Project:** [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning)
 
+---
 
 **Day 4: Value Functions and Optimality in Reinforcement Learning**
 
@@ -241,3 +244,5 @@ It is the goal of reinforcement learning algorithms to find a policy that will y
 
 **Resource:**  
 - [Value Functions and Optimality](https://deeplizard.com/learn/video/rP4oEpQbDm4)
+
+---
