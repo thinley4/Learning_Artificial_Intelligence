@@ -215,3 +215,28 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 - Implementation of the reward feedback mechanism in reinforcement learning
 
 **Project:** [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning)
+
+
+**Day 4: Value Functions and Optimality in Reinforcement Learning**
+
+**Value Functions Overview**
+Value functions are functions of states, or of state-action pairs, that estimate how good it is for an agent to be in a given state, or how good it is for the agent to perform a given action in a given state.
+
+
+**State-Value Function**
+It tells us how good any given state is for an agent following policy.
+
+**Action-Value Function (Q-Function)**
+It tells us how good it is for the agent to take any given action from a given state while following policy.
+
+**Optimality in Reinforcement Learning**
+It is the goal of reinforcement learning algorithms to find a policy that will yield a lot of rewards for the agent if the agent indeed follows that policy.
+
+![bellman_eq](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day4/bellman_eq.png)
+
+**Value Iteration**
+- The Q-learning algorithm iteratively updates the Q-values for each state-action pair using the Bellman equation until the Q-function converges to the optimal Q-function, q*. This approach is called value iteration.
+- Q-values will be iteratively updated using value iteration.
+
+**Resource:**  
+- [Value Functions and Optimality](https://deeplizard.com/learn/video/rP4oEpQbDm4)
