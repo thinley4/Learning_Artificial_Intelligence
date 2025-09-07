@@ -246,3 +246,46 @@ It is the goal of reinforcement learning algorithms to find a policy that will y
 - [Value Functions and Optimality](https://deeplizard.com/learn/video/rP4oEpQbDm4)
 
 ---
+
+**Day 5**
+
+**Experience Replay & Replay Memory**
+
+This replay memory data set is what we'll randomly sample from to train the network. The act of gaining experience and sampling from the replay memory that stores these experience is called **experience replay**.
+
+With experience replay, we store the agent's experiences at each time step in a data set called the **replay memory**.
+
+**Why to choose random samples to train?**
+
+If the network learned only from consecutive samples of experience as they occurred sequentially in the environment, the samples would be highly correlated and would therefore lead to inefficient learning. Taking random samples from replay memory breaks this correlation.
+
+- Training a deep Q-network with replay memory
+
+![q_network](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day5/q_network.png)
+
+The input state data then forward propagates through the network, using the same forward propagation technique that we've discussed for any other general neural network. The model then outputs an estimated Q-value for each possible action from the given input state.
+The loss is then calculated. We do this by comparing the Q-value output from the network for the action in the experience tuple we sampled and the corresponding optimal Q-value, or target Q-value, for the same action.
+
+![equation](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day5/equation.png)
+
+**Training the policy network**
+
+Gradient descent is then performed to update the weights in the network in attempts to minimize the loss.
+We'll want to keep repeating this process until we've sufficiently minimized the loss.
+We do the first pass to calculate the Q-value for the relevant action, and then we do a second pass in order to calculate the target Q-value for this same action.
+
+**Potential training issues with deep Q-networks**
+
+Given this, when our weights update, our outputted Q-values will update, but so will our target Q-values since the targets are calculated using the same weights. So, our Q-values will be updated with each iteration to move closer to the target Q-values, but the target Q-values will also be moving in the same direction.
+This makes the optimization appear to be chasing its own tail, which introduces instability.
+
+**Solution**
+
+- Rather than doing a second pass to the policy network to calculate the target Q-values, we instead obtain the target Q-values from a completely separate network, appropriately called the target network.
+
+- The target network is a clone of the policy network. Its weights are frozen with the original policy network's weights, and we update the weights in the target network to the policy network's new weights every certain amount of time steps. This certain amount of time steps can be looked at as yet another hyperparameter that we'll have to test out to see what works best for us.
+So now, the first pass still occurs with the policy network. The second pass, however, for the following state occurs with the target network. With this target network, we're able to obtain the max Q-value for the next state, and again, plug this value into the Bellman equation in order to calculate the target Q-value for the first state.
+
+**Resource:**  
+- [Value Functions and Optimality](https://deeplizard.com/learn/video/0bt0SjbS3xc)
+- [Training a deep Q-network](https://deeplizard.com/learn/video/FU-sNVew9ZA)
