@@ -289,3 +289,30 @@ So now, the first pass still occurs with the policy network. The second pass, ho
 **Resource:**  
 - [Value Functions and Optimality](https://deeplizard.com/learn/video/0bt0SjbS3xc)
 - [Training a deep Q-network](https://deeplizard.com/learn/video/FU-sNVew9ZA)
+
+
+
+**Day 6**
+
+**Implementing the Simplest Policy Gradient**
+
+
+**1. Making the Policy Network**
+
+```python
+# make core of policy network
+logits_net = mlp(sizes=[obs_dim]+hidden_sizes+[n_acts])
+# make function to compute action distribution
+def get_policy(obs):
+    logits = logits_net(obs)
+    return Categorical(logits=logits)
+# make action selection function (outputs int actions, sampled from policy)
+def get_action(obs):
+    return get_policy(obs).sample().item()
+```
+
+**Resources:**
+- [Full Implementation Code](https://github.com/openai/spinningup/blob/master/spinup/examples/pytorch/pg_math/1_simple_pg.py)
+- [Detailed Explanation](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)
+
+---
