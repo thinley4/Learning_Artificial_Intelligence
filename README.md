@@ -297,6 +297,9 @@ So now, the first pass still occurs with the policy network. The second pass, ho
 **Implementing the Simplest Policy Gradient**
 
 
+**Policy gradient methods** are a class of reinforcement learning (RL) algorithms that directly optimize a parameterized policy, to maximize the expected cumulative reward.
+
+
 **1. Making the Policy Network**
 
 ```python
@@ -314,5 +317,93 @@ def get_action(obs):
 **Resources:**
 - [Full Implementation Code](https://github.com/openai/spinningup/blob/master/spinup/examples/pytorch/pg_math/1_simple_pg.py)
 - [Detailed Explanation](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)
+
+---
+
+**Day 7**
+
+**2. Making the Loss Function.**
+
+```python
+# make loss function whose gradient, for the right data, is policy gradient
+def compute_loss(obs, act, weights):
+    logp = get_policy(obs).log_prob(act)
+    return -(logp * weights).mean()
+```
+
+
+3. Running One Epoch of Training.
+
+
+```python
+# for training policy
+def train_one_epoch():
+    # make some empty lists for logging.
+    batch_obs = []          # for observations
+    batch_acts = []         # for actions
+    batch_weights = []      # for R(tau) weighting in policy gradient
+    batch_rets = []         # for measuring episode returns
+    batch_lens = []         # for measuring episode lengths
+
+    # reset episode-specific variables
+    obs = env.reset()       # first obs comes from starting distribution
+    done = False            # signal from environment that episode is over
+    ep_rews = []            # list for rewards accrued throughout ep
+
+    # render first episode of each epoch
+    finished_rendering_this_epoch = False
+
+    # collect experience by acting in the environment with current policy
+    while True:
+
+        # rendering
+        if (not finished_rendering_this_epoch) and render:
+            env.render()
+
+        # save obs
+        batch_obs.append(obs.copy())
+
+        # act in the environment
+        act = get_action(torch.as_tensor(obs, dtype=torch.float32))
+        obs, rew, done, _ = env.step(act)
+
+        # save action, reward
+        batch_acts.append(act)
+        ep_rews.append(rew)
+
+        if done:
+            # if episode is over, record info about episode
+            ep_ret, ep_len = sum(ep_rews), len(ep_rews)
+            batch_rets.append(ep_ret)
+            batch_lens.append(ep_len)
+
+            # the weight for each logprob(a|s) is R(tau)
+            batch_weights += [ep_ret] * ep_len
+
+            # reset episode-specific variables
+            obs, done, ep_rews = env.reset(), False, []
+
+            # won't render again this epoch
+            finished_rendering_this_epoch = True
+
+            # end experience loop if we have enough of it
+            if len(batch_obs) > batch_size:
+                break
+
+    # take a single policy gradient update step
+    optimizer.zero_grad()
+    batch_loss = compute_loss(obs=torch.as_tensor(batch_obs, dtype=torch.float32),
+                              act=torch.as_tensor(batch_acts, dtype=torch.int32),
+                              weights=torch.as_tensor(batch_weights, dtype=torch.float32)
+                              )
+    batch_loss.backward()
+    optimizer.step()
+    return batch_loss, batch_rets, batch_lens
+```
+
+**Resources:**
+- [Full Implementation Code](https://github.com/openai/spinningup/blob/master/spinup/examples/pytorch/pg_math/1_simple_pg.py)
+- [Detailed Explanation](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)
+
 
 ---
