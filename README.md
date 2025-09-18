@@ -407,3 +407,59 @@ def train_one_epoch():
 
 
 ---
+
+**Day 8**
+
+**Understanding Reasoning LLMs**
+- By Sebastian Raschka
+
+![one](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day8/one.png)
+
+**Content:**
+
+1. Explain the meaning of "reasoning model"
+2. Discuss the advantages and disadvantages of reasoning models
+3. Outline the methodology behind DeepSeek R1
+4. Describe the four main approaches to building and improving reasoning models
+5. Share thoughts on the LLM landscape following the DeepSeek V3 and R1 releases
+6. Provide tips for developing reasoning models on a tight budget
+
+**What is reasoning?**
+
+In this article, I define "reasoning" as the process of answering questions that require complex, multi-step generation with intermediate steps. For example, factual question-answering like "What is the capital of France?" does not involve reasoning. In contrast, a question like "If a train is moving at 60 mph and travels for 3 hours, how far does it go?" requires some simple reasoning. For instance, it requires recognizing the relationship between distance, speed, and time before arriving at the answer.
+
+![two](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day8/two.png)
+
+When do we need a reasoning model? Reasoning models are designed to be good at complex tasks such as solving puzzles, advanced math problems, and challenging coding tasks.
+
+---
+
+**Day 9**
+
+A brief look at the DeepSeek training pipeline
+
+![one](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day9/one.png)
+
+The exact workings of o1 and o3 remain unknown outside of OpenAI. However, they are rumored to leverage a combination of both inference and training techniques.
+
+**The 4 main ways to build and improve reasoning models**
+1) Inference-time scaling
+2) Pure reinforcement learning (RL)
+3) Supervised finetuning and reinforcement learning (SFT + RL)
+4) Pure supervised finetuning (SFT) and distillation
+
+
+**Chain-of-thought**
+
+One straightforward approach to inference-time scaling is clever prompt engineering. A classic example is chain-of-thought (CoT) prompting, where phrases like "think step by step" are included in the input prompt. This encourages the model to generate intermediate reasoning steps rather than jumping directly to the final answer, which can often (but not always) lead to more accurate results on more complex problems.
+
+For rewards, **instead of using a reward model trained on human preferences**, they employed two types of rewards: **an accuracy reward and a format reward.**
+
+–	The accuracy reward uses the LeetCode compiler to verify coding answers and a deterministic system to evaluate mathematical responses.
+–	The format reward relies on an LLM judge to ensure responses follow the expected format, such as placing reasoning steps inside <think> tags.
+
+**Surprisingly, this approach was enough for the LLM to develop basic reasoning skills.** The researchers observed an "Aha!" moment, where the model began generating reasoning traces as part of its responses despite not being explicitly trained to do so, as shown in the figure below.
+
+![two](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day9/two.png)
+
+---
