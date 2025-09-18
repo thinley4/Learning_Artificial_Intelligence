@@ -432,6 +432,9 @@ In this article, I define "reasoning" as the process of answering questions that
 
 When do we need a reasoning model? Reasoning models are designed to be good at complex tasks such as solving puzzles, advanced math problems, and challenging coding tasks.
 
+**Resources:**
+- [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
+
 ---
 
 **Day 9**
@@ -461,5 +464,9 @@ For rewards, **instead of using a reward model trained on human preferences**, t
 **Surprisingly, this approach was enough for the LLM to develop basic reasoning skills.** The researchers observed an "Aha!" moment, where the model began generating reasoning traces as part of its responses despite not being explicitly trained to do so, as shown in the figure below.
 
 ![two](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day9/two.png)
+
+
+**Resources:**
+- [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
 
 ---
