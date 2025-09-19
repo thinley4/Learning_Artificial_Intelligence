@@ -470,3 +470,27 @@ For rewards, **instead of using a reward model trained on human preferences**, t
 - [Understanding Reasoning LLMs](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
 
 ---
+
+**Day 10**
+
+**Distillation**
+LLM distillation is a technique that creates smaller, more efficient large language models (LLMs) by transferring knowledge from a large, high-performing "teacher" model to a smaller "student" model. 
+
+**Why did they develop these distilled models? In my opinion, there are two key reasons:** 
+
+1. Smaller models are more efficient. This means they are cheaper to run, but they also can run on lower-end hardware, which makes these especially interesting for many researchers and tinkerers like me.
+
+2. A case study in pure SFT. These distilled models serve as an interesting benchmark, showing how far pure supervised fine-tuning (SFT) can take a model without reinforcement learning.
+
+**Mixture of Experts (MoE)?** 
+Mixture of Experts enable models to be pretrained with far less compute, which means you can dramatically scale up the model or dataset size with the same compute budget as a dense model. In particular, a MoE model should achieve the same quality as its dense counterpart much faster during pretraining.
+
+**What exactly is a MoE?**
+
+- **Sparse MoE layers** are used instead of dense feed-forward network (FFN) layers. MoE layers have a certain number of “experts” (e.g. 8), where each expert is a neural network. In practice, the experts are FFNs, but they can also be more complex networks or even a MoE itself, leading to hierarchical MoEs!
+- A **gate network or router**, that determines which tokens are sent to which expert. For example, in the image below, the token “More” is sent to the second expert, and the token "Parameters” is sent to the first network. As we’ll explore later, we can send a token to more than one expert. How to route a token to an expert is one of the big decisions when working with MoEs - the router is composed of learned parameters and is pretrained at the same time as the rest of the network.
+
+![one](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day10/one.png)
+
+**Resources:**
+- [Understanding Reasoning LLMs](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe)
