@@ -501,13 +501,14 @@ Mixture of Experts enable models to be pretrained with far less compute, which m
 
 **Humanoid**
 
-Exploring humanoid in gymnasium. 
-Humanoid is a part of Mujoco environment.
+- Exploring humanoid in gymnasium. 
+- Humanoid is a part of Mujoco environment.
 
 **What is MuJoCo?**
 
 MuJoCo is a free and open source physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, and other areas where fast and accurate simulation is needed.
-- [Source](https://mujoco.org)
+[Source](https://mujoco.org)
+
 
 The 3D bipedal robot is designed to simulate a human.
 
@@ -527,9 +528,9 @@ The 3D bipedal robot is designed to simulate a human.
 
 ![Two](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day11/two.png)
 
-- I used Soft Actor Critic (SAC) and It worked.
+**I used Soft Actor Critic (SAC) and It worked.**
 
 
 **Resources**
-[Humanoid Environment](https://gymnasium.farama.org/environments/mujoco/humanoid)
-[Soft Actor Critic (SAC)](https://stable-baselines3.readthedocs.io/en/master/modules/sac.html)
+- [Humanoid Environment](https://gymnasium.farama.org/environments/mujoco/humanoid)
+- [Soft Actor Critic (SAC)](https://stable-baselines3.readthedocs.io/en/master/modules/sac.html)
