@@ -535,8 +535,10 @@ The 3D bipedal robot is designed to simulate a human.
 - [Humanoid Environment](https://gymnasium.farama.org/environments/mujoco/humanoid)
 - [Soft Actor Critic (SAC)](https://stable-baselines3.readthedocs.io/en/master/modules/sac.html)
 
+---
 
 **Day 12**
+
 
 **Recap**
 
