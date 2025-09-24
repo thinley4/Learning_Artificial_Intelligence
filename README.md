@@ -534,3 +534,28 @@ The 3D bipedal robot is designed to simulate a human.
 **Resources**
 - [Humanoid Environment](https://gymnasium.farama.org/environments/mujoco/humanoid)
 - [Soft Actor Critic (SAC)](https://stable-baselines3.readthedocs.io/en/master/modules/sac.html)
+
+
+**Day 12**
+
+**Recap**
+
+**What is Action Space?**
+
+Different environments allow different kinds of actions. **The set of all valid actions in a given environment is often called the action space.** Some environments, like Atari and Go, have discrete action spaces, where only a finite number of moves are available to the agent. Other environments, like where the agent controls a robot in a physical world, have continuous action spaces.
+[Source](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+
+**What is Policy?**
+
+A policy is a rule used by an agent to decide what actions to take. It can be deterministic, in which case it is usually denoted by .
+[Source](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+
+**What is on-policy?**
+
+On-policy methods are about learning from what you are currently doing. Imagine you're trying to teach a robot to navigate a maze. In on-policy learning, the robot learns based on the actions it is currently taking.
+
+**What is off-policy?**
+
+Off-policy methods, on the other hand, are like learning from someone else's experience. In this approach, the robot might watch another robot navigate the maze and learn from its actions.
+
+---
