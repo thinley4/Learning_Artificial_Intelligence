@@ -494,3 +494,42 @@ Mixture of Experts enable models to be pretrained with far less compute, which m
 
 **Resources:**
 - [Understanding Reasoning LLMs](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe)
+
+---
+
+**Day 11**
+
+**Humanoid**
+
+Exploring humanoid in gymnasium. 
+Humanoid is a part of Mujoco environment.
+
+**What is MuJoCo?**
+
+MuJoCo is a free and open source physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, and other areas where fast and accurate simulation is needed.
+- [Source](https://mujoco.org)
+
+The 3D bipedal robot is designed to simulate a human.
+
+**Action Space & Observation Space**
+
+![One](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day11/one.png)
+
+![Three](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day11/three.png)
+
+
+**Why not DQN?**
+
+- Stable Baselines3 DQN algorithm only supports discrete action spaces.
+- Humanoid-v5 environment from Gymnasium has a continuous action space.
+- DQN requires a finite set of discrete actions to compute Q-values for each.
+- Therefore, DQN cannot be used for this environment.
+
+![Two](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day11/two.png)
+
+- I used Soft Actor Critic (SAC) and It worked.
+
+
+**Resources**
+[Humanoid Environment](https://gymnasium.farama.org/environments/mujoco/humanoid)
+[Soft Actor Critic (SAC)](https://stable-baselines3.readthedocs.io/en/master/modules/sac.html)
