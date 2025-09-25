@@ -561,3 +561,32 @@ On-policy methods are about learning from what you are currently doing. Imagine 
 Off-policy methods, on the other hand, are like learning from someone else's experience. In this approach, the robot might watch another robot navigate the maze and learn from its actions.
 
 ---
+
+**Day 13**
+
+**Why Multi-agent Systems?**
+
+An agent is a system that uses an LLM to decide the control flow of an application. As you develop these systems, they might grow more complex over time, making them harder to manage and scale.
+
+**Some problems:**
+
+- agent has too many tools at its disposal and makes poor decisions about which tool to call next
+- context grows too complex for a single agent to keep track of
+- there is a need for multiple specialization areas in the system (e.g. planner, researcher, math expert, etc.)
+To tackle these, you might consider breaking your application into multiple smaller, independent agents and composing them into a multi-agent system.
+- [Source](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
+
+**Understanding ReAct?**
+
+[Yao et al., 2022](https://arxiv.org/abs/2210.03629) introduced a framework named ReAct where LLMs are used to generate both reasoning traces and task-specific actions in an interleaved manner.
+
+Generating reasoning traces allow the model to induce, track, and update action plans, and even handle exceptions. The action step allows to interface with and gather information from external sources such as knowledge bases or environments.
+
+The ReAct framework can allow LLMs to interact with external tools to retrieve additional information that leads to more reliable and factual responses.
+- [Source](https://www.promptingguide.ai/techniques/react)
+
+![One](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day12/one.png)
+
+[Source](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#tool-calling-agent)
+
+---
