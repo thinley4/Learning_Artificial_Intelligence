@@ -574,7 +574,7 @@ An agent is a system that uses an LLM to decide the control flow of an applicati
 - context grows too complex for a single agent to keep track of
 - there is a need for multiple specialization areas in the system (e.g. planner, researcher, math expert, etc.)
 To tackle these, you might consider breaking your application into multiple smaller, independent agents and composing them into a multi-agent system.
-- [Source](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
+[Source](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
 
 **Understanding ReAct?**
 
@@ -583,10 +583,10 @@ To tackle these, you might consider breaking your application into multiple smal
 Generating reasoning traces allow the model to induce, track, and update action plans, and even handle exceptions. The action step allows to interface with and gather information from external sources such as knowledge bases or environments.
 
 The ReAct framework can allow LLMs to interact with external tools to retrieve additional information that leads to more reliable and factual responses.
-- [Source](https://www.promptingguide.ai/techniques/react)
+[Source](https://www.promptingguide.ai/techniques/react)
 
 ![One](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day12/one.png)
 
-[Source](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#tool-calling-agent)
+[Img Source](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#tool-calling-agent)
 
 ---
