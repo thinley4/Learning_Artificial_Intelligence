@@ -593,7 +593,7 @@ The ReAct framework can allow LLMs to interact with external tools to retrieve a
 
 **Day 14**
 
-**HandOffs**
+**What is HandOffs**
 
 In multi-agent architectures, agents can be represented as graph nodes. Each agent node executes its step(s) and decides whether to finish execution or route to another agent, including potentially routing to itself (e.g., running in a loop). A common pattern in multi-agent interactions is handoffs, **where one agent hands off control to another.**
 [Source](https://langchain-ai.github.io/langgraph/concepts/multi_agent/#handoffs-as-tools)
@@ -608,5 +608,29 @@ In multi-agent architectures, agents can be represented as graph nodes. Each age
 ![Swarm](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day14/swarm.png)
 
 I implemented both architectures in code from [LangGraph](https://langchain-ai.github.io/langgraph/agents/multi-agent/)
+
+---
+
+**Day 15**
+
+**Following ReAct agent from scratch with Gemini 2.5 and LangGraph from Google AI for Developers**
+
+- In this tutorial, I will **create a simple agent whose goal is to use a tool to find the current weather for a specified location.**
+
+- LangGraph is a framework for building stateful LLM applications, making it a good choice for constructing ReAct (Reasoning and Acting) Agents.
+
+**LangGraph models agents as graphs using three key components:**
+
+- State: Shared data structure (typically TypedDict or Pydantic BaseModel) representing the application's current snapshot.
+- Nodes: Encodes logic of your agents. They receive the current State as input, perform some computation or side-effect, and return an updated State, such as LLM calls or tool calls.
+- Edges: Define the next Node to execute based on the current State, allowing for conditional logic and fixed transitions.
+
+[Tutorial with code](https://ai.google.dev/gemini-api/docs/langgraph-example)
+
+**Output:**
+
+![Output](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day15/output.png)
+
+- [Resource](https://ai.google.dev/gemini-api/docs/langgraph-example)
 
 ---
