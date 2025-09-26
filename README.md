@@ -590,3 +590,23 @@ The ReAct framework can allow LLMs to interact with external tools to retrieve a
 [Img Source](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#tool-calling-agent)
 
 ---
+
+**Day 14**
+
+**HandOffs**
+
+In multi-agent architectures, agents can be represented as graph nodes. Each agent node executes its step(s) and decides whether to finish execution or route to another agent, including potentially routing to itself (e.g., running in a loop). A common pattern in multi-agent interactions is handoffs, **where one agent hands off control to another.**
+[Source](https://langchain-ai.github.io/langgraph/concepts/multi_agent/#handoffs-as-tools)
+
+**Two of the most popular multi-agent architectures are:**
+
+- supervisor — **individual agents are coordinated by a central supervisor agent.** The supervisor controls all communication flow and task delegation, making decisions about which agent to invoke based on the current context and task requirements.
+- swarm — **agents dynamically hand off control to one another based on their specializations.** The system remembers which agent was last active, ensuring that on subsequent interactions, the conversation resumes with that agent.
+
+![Supervisor](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day14/supervisor.png)
+
+![Swarm](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day14/swarm.png)
+
+I implemented both architectures in code from [LangGraph](https://langchain-ai.github.io/langgraph/agents/multi-agent/)
+
+---
