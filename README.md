@@ -647,31 +647,34 @@ Many AI applications interact with users via natural language. However, some use
 
 Multiply 23746278364 * 23648723678 ?
 
+**Actual Answer**
+
 ![Anwer](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day16/answer.png)
 
 **Grok response:**
 
 ![Grok](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day16/grok.png)
 
-Grok didn’t use any tool for calculation so, the response was incorrect because LLM can't handle complex calculation.
+- Grok didn’t use any tool for calculation so, the response was incorrect because LLM can't handle complex calculation.
 
 **Gemini response:**
 
 ![Gemini](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day16/gemini.png)
 
-It use python as a tool/calculator so, that it can handle complex calculation.
+- It use python as a tool/calculator so, that it can handle complex calculation.
 
-I realized the importance of tools in LLM after watching “How I use LLMs” video from Andrej Karpathy.
-[Source](https://www.youtube.com/watch?v=EWvNQjAaOHw)
+**I realized the importance of tools in LLM after watching “How I use LLMs” video from Andrej Karpathy.**
+- [How I use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw)
 
 I wanted to build similar project where tools are integrated with LLM to handle situation where LLM hallucinate.
 
 **Input:**
 what's 8282 x 99191?
 
+**Output**
 ![My output](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day16/my_output.png)
 
 I was able to make my custom tool and integrate with LLM model by following this documentation.
-[Source](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/)
+[Resource](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/)
 
 ---
