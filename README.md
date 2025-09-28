@@ -645,9 +645,9 @@ Many AI applications interact with users via natural language. However, some use
 
 **Question:**
 
-Multiply 23746278364 * 23648723678 ?
+- Multiply 23746278364 * 23648723678 ?
 
-**Actual Answer**
+**Actual Answer:**
 
 ![Anwer](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day16/answer.png)
 
@@ -672,9 +672,38 @@ I wanted to build similar project where tools are integrated with LLM to handle 
 what's 8282 x 99191?
 
 **Output**
+
 ![My output](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day16/my_output.png)
 
 I was able to make my custom tool and integrate with LLM model by following this documentation.
 [Resource](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/)
+
+---
+
+**Day 17**
+
+**How model is able to choose tools?**
+
+Tool calling is typically conditional. **Based on the user input and available tools, the model may choose to issue a tool call request. This request is returned in an AIMessage object**, which includes a tool_calls field that specifies the tool name and input arguments:
+
+![Tool1](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day17/how_tool1.png)
+
+**If the input is unrelated to any tool, the model returns only a natural language message:**
+
+![Tool2](https://github.com/thinley4/Learning_Artificial_Intelligence/blob/main/images/day17/how_tool2.png)
+
+Importantly, the model does not execute the tool—it only generates a request. **A separate executor (such as a runtime or agent) is responsible for handling the tool call and returning the result.**
+
+**Tool execution**
+
+While the model determines when to call a tool, execution of the tool call must be handled by a runtime component.
+LangGraph provides prebuilt components for this:
+- ToolNode: A prebuilt node that executes tools.
+- create_react_agent: Constructs a full agent that manages tool calling automatically.
+
+
+**Dynamically select tools**
+
+- [Dynamically select tools](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/#dynamically-select-tools)
 
 ---
