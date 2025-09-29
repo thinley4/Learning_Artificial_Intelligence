@@ -29,28 +29,39 @@ Originally, I started my Computer Science journey with web development.
 | 1 | **Attention Is All You Need** | [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762) |
 | 2 | **ReAct: Synergizing Reasoning and Acting in Language Models** | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
 | 3 | **Foundations of Large Language Models** | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
+| 4 | **DeepSeek-R1** | [arxiv.org/abs/2501.12948](https://arxiv.org/pdf/2501.12948) |
 
 ### Books & Articles
 | # | Title | Author/Source | Link |
 |---|-------|---------------|------|
-| 4 | **How Large Language Models Work** | Microsoft Data Science Blog | [Medium Article](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) |
-| 5 | **Introduction to Machine Learning** | Ethem Alpaydin | [Google Books](https://www.google.co.in/books/edition/Introduction_to_Machine_Learning/1k0_-WroiqEC?hl=en&gbpv=0) |
-| 6 | **LLMs from Scratch** | Sebastian Raschka | [GitHub Repository](https://github.com/rasbt/LLMs-from-scratch) |
-| 7 | **Understanding Reasoning LLMs** | Sebastian Raschka | [Substack Article](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) |
+| 1 | **How Large Language Models Work** | Microsoft Data Science Blog | [Medium Article](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) |
+| 2 | **Introduction to Machine Learning** | Ethem Alpaydin | [Google Books](https://www.google.co.in/books/edition/Introduction_to_Machine_Learning/1k0_-WroiqEC?hl=en&gbpv=0) |
+| 3 | **LLMs from Scratch** | Sebastian Raschka | [GitHub Repository](https://github.com/rasbt/LLMs-from-scratch) |
+| 4 | **Understanding Reasoning LLMs** | Sebastian Raschka | [Substack Article](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) |
 
 ### Courses & Tutorials
 | # | Title | Platform/Author | Link |
 |---|-------|-----------------|------|
-| 8 | **Deep Learning with PyTorch - Full Course** | YouTube | [YouTube](https://www.youtube.com/watch?v=V_xro1bcAuA&t=48258s) |
-| 9 | **Attention in Transformers: Concepts and Code in PyTorch** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/attention-in-transformers-concepts-and-code-in-pytorch/lesson/han2t/introduction) |
-| 10 | **How Transformer LLMs Work** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/nfshb/introduction) |
-| 11 | **Build LLM Apps with LangChain.js** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/build-llm-apps-with-langchain-js/lesson/vchyb/introduction) |
+| 1 | **Deep Learning with PyTorch - Full Course** | YouTube | [YouTube](https://www.youtube.com/watch?v=V_xro1bcAuA&t=48258s) |
+| 2 | **Attention in Transformers: Concepts and Code in PyTorch** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/attention-in-transformers-concepts-and-code-in-pytorch/lesson/han2t/introduction) |
+| 3 | **How Transformer LLMs Work** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/nfshb/introduction) |
+| 4 | **Build LLM Apps with LangChain.js** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/build-llm-apps-with-langchain-js/lesson/vchyb/introduction) |
+| 5 | **Reinforcement Learning - Developing Intelligent Agents** | deeplizard | [Course Link](https://deeplizard.com/learn/video/nyjbcRQ-uQ8) |
+| 6 | **Let's build GPT: from scratch** | Andrej Karpathy | [Link](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=21s) |
+| 7 | **Neural Networks: Zero to Hero** | Andrej Karpathy | [Link](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) |
+| 8 | **building a ChatGPT-like model** | Standford | [Link](https://www.youtube.com/watch?v=9vM4p9NN0Ts&t=5244s) |
+| 9 | **Machine Learning Specialization – Andrew Ng (Autumn 2018)** | Standford | [Link](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) |
+| 10 | **Build an LLM from Scratch** | Sebastian Raschka | [PlayList](https://www.youtube.com/watch?v=yAcWnfsZhzo&list=PLTKMiZHVd_2Licpov-ZK24j6oUnbhiPkm&index=8) |
+| 11 | **Hands on Reinforcement Learning** | Vizuara | [Link](https://www.youtube.com/watch?v=wz141j9qIaU) |
 
-### Technical Concepts
+### Other Resources
 | # | Topic | Link |
 |---|-------|------|
-| 12 | **Mixture of Experts (MoE)** | [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe) |
-
+| 1 | **Mixture of Experts (MoE)** | [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe) |
+| 2 | **Multi-agent** | [Multi-agent-LangGraph](https://langchain-ai.github.io/langgraph/agents/multi-agent/) |
+| 3 | **ReAct agent from scratch with Gemini 2.5 and LangGraph** | [ReAct agent Gemini 2.5](https://ai.google.dev/gemini-api/docs/langgraph-example) |
+| 4 | **Humanoid Gymnasium** | [Humanoid Environment](https://gymnasium.farama.org/environments/mujoco/humanoid/) |
+| 6 | **Call tools LangGraph** | [Link](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/) |
 ---
 
 ### 1. DChat Application  
