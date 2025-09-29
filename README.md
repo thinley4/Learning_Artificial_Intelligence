@@ -24,8 +24,8 @@ Originally, I started my Computer Science journey with web development.
 ## Resources & References
 
 ### Research Papers
-| # | Title | Description | Link |
-|---|-------|-------------|------|
+| # | Title | Link |
+|---|-------|------|
 | 1 | **Attention Is All You Need** | [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762) |
 | 2 | **ReAct: Synergizing Reasoning and Acting in Language Models** | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
 | 3 | **Foundations of Large Language Models** | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
@@ -47,8 +47,8 @@ Originally, I started my Computer Science journey with web development.
 | 11 | **Build LLM Apps with LangChain.js** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/build-llm-apps-with-langchain-js/lesson/vchyb/introduction) |
 
 ### Technical Concepts
-| # | Topic | Description | Link |
-|---|-------|-------------|------|
+| # | Topic | Link |
+|---|-------|------|
 | 12 | **Mixture of Experts (MoE)** | [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe) |
 
 ---
