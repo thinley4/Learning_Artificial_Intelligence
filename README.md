@@ -26,9 +26,9 @@ Originally, I started my Computer Science journey with web development.
 ### Research Papers
 | # | Title | Description | Link |
 |---|-------|-------------|------|
-| 1 | **Attention Is All You Need** | The foundational transformer paper | [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762) |
-| 2 | **ReAct: Synergizing Reasoning and Acting in Language Models** | Framework for reasoning and acting in LLMs | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
-| 3 | **Foundations of Large Language Models** | Comprehensive overview of LLM foundations | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
+| 1 | **Attention Is All You Need** | [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762) |
+| 2 | **ReAct: Synergizing Reasoning and Acting in Language Models** | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
+| 3 | **Foundations of Large Language Models** | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
 
 ### Books & Articles
 | # | Title | Author/Source | Link |
@@ -49,7 +49,7 @@ Originally, I started my Computer Science journey with web development.
 ### Technical Concepts
 | # | Topic | Description | Link |
 |---|-------|-------------|------|
-| 12 | **Mixture of Experts (MoE)** | Advanced neural network architecture concept | [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe) |
+| 12 | **Mixture of Experts (MoE)** | [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe) |
 
 ---
 
