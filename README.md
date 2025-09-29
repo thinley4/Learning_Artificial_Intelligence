@@ -19,6 +19,7 @@ Originally, I started my Computer Science journey with web development.
 | 6 | **Minimal Lunar Lander - DQN** | Reinforcement learning project using Deep Q-Networks with Gymnasium and Stable Baselines3 | - | [Minimal Lunar Lander DQN](https://github.com/thinley4/Minimal-Lunar-Lander-DQN) |
 | 7 | **Q-Learning Implementation** | From-scratch implementation of Q-learning algorithm in Python for educational purposes | - | [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning) |
 | 8 | **Weather Agent** | A weather forecasting agent built with LangChain and Google's Gemini AI model | - | [Weather Agent](https://github.com/thinley4/Weather-Agent) |
+| 9 | **Multiplication tool** | Integrating tool with LLM | - | [Multiplication tool](https://github.com/thinley4/Multiplication-tool) |
 
 ---
 
