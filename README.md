@@ -6,83 +6,50 @@ Originally, I started my Computer Science journey with web development.
 
 ---
 
+
 ## Projects
 
-### 1. DChat - PDF Q&A Application
-A web application where users can upload PDFs and ask questions about their content using RAG (Retrieval-Augmented Generation).
-- **Demo:** [LinkedIn Demo](https://www.linkedin.com/posts/thinley-lama-842631252_ai-chatbot-rag-activity-7258469838874910721-ro5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5ipnIBKx11QjzcH6rujsE2BXJ-D3FhIOU)  
-- **GitHub:** [DChat Repository](https://github.com/blockx3/dchat)  
-
-### 2. Handwritten Digit Recognition
-CNN-based model for recognizing handwritten digits using the MNIST dataset, integrated with Streamlit for user interaction.
-- **GitHub:** [Handwritten Digit Recognition](https://github.com/thinley4/Handwritten-digit-recognition) 
-
-### 3. Gmail Agent - AI Email Assistant
-AI agent built with LangChain, Gemini model, and Streamlit to assist users with email composition.
-- **Demo:** [LinkedIn Demo](https://www.linkedin.com/posts/thinley-lama-842631252_ai-aiagent-activity-7299138238336708610-Wxl6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5ipnIBKx11QjzcH6rujsE2BXJ-D3FhIOU)  
-- **GitHub:** [Gmail Agent Repository](https://github.com/thinley4/Gmail-Agent)  
-
-### 4. GPT from Scratch - Pretraining
-Implementation of GPT model from scratch with pretraining capabilities.
-- **GitHub:** [GPT Pretraining](https://github.com/thinley4/GPT-Pretrain)
-
-### 5. GPT-2 from Scratch - Finetuning
-GPT-2 implementation with classification finetuning for downstream tasks.
-- **GitHub:** [Classification Finetuning](https://github.com/thinley4/Classification-Finetune)
-
-### 6. Minimal Lunar Lander - DQN
-Reinforcement learning project using Deep Q-Networks with Gymnasium and Stable Baselines3.
-- **GitHub:** [Minimal Lunar Lander DQN](https://github.com/thinley4/Minimal-Lunar-Lander-DQN)  
-
-### 7. Q-Learning Implementation
-From-scratch implementation of Q-learning algorithm in Python for educational purposes.
-- **GitHub:** [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning)
+| # | Project Name | Description | Demo | GitHub |
+|---|--------------|-------------|------|--------|
+| 1 | **DChat - PDF Q&A Application** | Web application where users can upload PDFs and ask questions about their content using RAG (Retrieval-Augmented Generation) | [LinkedIn Demo](https://www.linkedin.com/posts/thinley-lama-842631252_ai-chatbot-rag-activity-7258469838874910721-ro5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5ipnIBKx11QjzcH6rujsE2BXJ-D3FhIOU) | [DChat Repository](https://github.com/blockx3/dchat) |
+| 2 | **Handwritten Digit Recognition** | CNN-based model for recognizing handwritten digits using the MNIST dataset, integrated with Streamlit for user interaction | - | [Handwritten Digit Recognition](https://github.com/thinley4/Handwritten-digit-recognition) |
+| 3 | **Gmail Agent - AI Email Assistant** | AI agent built with LangChain, Gemini model, and Streamlit to assist users with email composition | [LinkedIn Demo](https://www.linkedin.com/posts/thinley-lama-842631252_ai-aiagent-activity-7299138238336708610-Wxl6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5ipnIBKx11QjzcH6rujsE2BXJ-D3FhIOU) | [Gmail Agent Repository](https://github.com/thinley4/Gmail-Agent) |
+| 4 | **GPT from Scratch - Pretraining** | Implementation of GPT model from scratch with pretraining capabilities | - | [GPT Pretraining](https://github.com/thinley4/GPT-Pretrain) |
+| 5 | **GPT-2 from Scratch - Finetuning** | GPT-2 implementation with classification finetuning for downstream tasks | - | [Classification Finetuning](https://github.com/thinley4/Classification-Finetune) |
+| 6 | **Minimal Lunar Lander - DQN** | Reinforcement learning project using Deep Q-Networks with Gymnasium and Stable Baselines3 | - | [Minimal Lunar Lander DQN](https://github.com/thinley4/Minimal-Lunar-Lander-DQN) |
+| 7 | **Q-Learning Implementation** | From-scratch implementation of Q-learning algorithm in Python for educational purposes | - | [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning) |
 
 ---
 
 ## Resources & References
 
 ### Research Papers
-1. **Attention Is All You Need** - The foundational transformer paper  
-   [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762)
-
-2. **ReAct: Synergizing Reasoning and Acting in Language Models**  
-   [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
-
-3. **Foundations of Large Language Models**  
-   [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223)
+| # | Title | Description | Link |
+|---|-------|-------------|------|
+| 1 | **Attention Is All You Need** | The foundational transformer paper | [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762) |
+| 2 | **ReAct: Synergizing Reasoning and Acting in Language Models** | Framework for reasoning and acting in LLMs | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
+| 3 | **Foundations of Large Language Models** | Comprehensive overview of LLM foundations | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
 
 ### Books & Articles
-
-4. **How Large Language Models Work**  
-   [Microsoft Data Science Blog](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f)  
-
-5. **Introduction to Machine Learning** by Ethem Alpaydin  
-   [Google Books](https://www.google.co.in/books/edition/Introduction_to_Machine_Learning/1k0_-WroiqEC?hl=en&gbpv=0)
-
-6. **LLMs from Scratch** by Sebastian Raschka  
-   [GitHub Repository](https://github.com/rasbt/LLMs-from-scratch)
-
-7. **Understanding Reasoning LLMs** by Sebastian Raschka  
-   [Substack Article](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
+| # | Title | Author/Source | Link |
+|---|-------|---------------|------|
+| 4 | **How Large Language Models Work** | Microsoft Data Science Blog | [Medium Article](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f) |
+| 5 | **Introduction to Machine Learning** | Ethem Alpaydin | [Google Books](https://www.google.co.in/books/edition/Introduction_to_Machine_Learning/1k0_-WroiqEC?hl=en&gbpv=0) |
+| 6 | **LLMs from Scratch** | Sebastian Raschka | [GitHub Repository](https://github.com/rasbt/LLMs-from-scratch) |
+| 7 | **Understanding Reasoning LLMs** | Sebastian Raschka | [Substack Article](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) |
 
 ### Courses & Tutorials
-
-8. **Deep Learning with PyTorch - Full Course**  
-   [YouTube](https://www.youtube.com/watch?v=V_xro1bcAuA&t=48258s)
-
-9. **Attention in Transformers: Concepts and Code in PyTorch**  
-   [DeepLearning.AI](https://learn.deeplearning.ai/courses/attention-in-transformers-concepts-and-code-in-pytorch/lesson/han2t/introduction)  
-
-10. **How Transformer LLMs Work**  
-    [DeepLearning.AI](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/nfshb/introduction)  
-
-11. **Build LLM Apps with LangChain.js**  
-    [DeepLearning.AI](https://learn.deeplearning.ai/courses/build-llm-apps-with-langchain-js/lesson/vchyb/introduction)  
+| # | Title | Platform/Author | Link |
+|---|-------|-----------------|------|
+| 8 | **Deep Learning with PyTorch - Full Course** | YouTube | [YouTube](https://www.youtube.com/watch?v=V_xro1bcAuA&t=48258s) |
+| 9 | **Attention in Transformers: Concepts and Code in PyTorch** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/attention-in-transformers-concepts-and-code-in-pytorch/lesson/han2t/introduction) |
+| 10 | **How Transformer LLMs Work** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/how-transformer-llms-work/lesson/nfshb/introduction) |
+| 11 | **Build LLM Apps with LangChain.js** | DeepLearning.AI | [Course Link](https://learn.deeplearning.ai/courses/build-llm-apps-with-langchain-js/lesson/vchyb/introduction) |
 
 ### Technical Concepts
-12. **Mixture of Experts (MoE)**  
-    [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe)
+| # | Topic | Description | Link |
+|---|-------|-------------|------|
+| 12 | **Mixture of Experts (MoE)** | Advanced neural network architecture concept | [Hugging Face Blog](https://huggingface.co/blog/moe#what-is-a-mixture-of-experts-moe) |
 
 ---
 
