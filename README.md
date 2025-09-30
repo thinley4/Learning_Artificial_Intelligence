@@ -831,5 +831,6 @@ One can define a feature not only as some concrete attribute, such as a name and
 - The bag-of-words model defines a vector space6. In this space, the similarity of two vectors is measured in some way like dot-product. It helps when one wants to establish the relationship between documents — two documents with more overlapping words are more similar.
 
 
+Sources:
 - [Book](https://github.com/NiuTrans/NLPBook)
 - [Foundation of ML Book](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter1.pdf)
