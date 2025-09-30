@@ -835,6 +835,8 @@ Sources:
 - [Book](https://github.com/NiuTrans/NLPBook)
 - [Foundation of ML Book](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter1.pdf)
 
+---
+
 **Day 19**
 
 **Linear Classifiers**
@@ -851,3 +853,5 @@ Sources:
 **Great explanation on Naive Bayes**
 
 - [Youtube video link](https://www.youtube.com/watch?v=O2L2Uv9pdDA)
+
+---
