@@ -834,3 +834,20 @@ One can define a feature not only as some concrete attribute, such as a name and
 Sources:
 - [Book](https://github.com/NiuTrans/NLPBook)
 - [Foundation of ML Book](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter1.pdf)
+
+**Day 19**
+
+**Linear Classifiers**
+
+![Linear classifier](/images//day19/linear_classifier.png)
+
+**Naive Bayes**
+
+![Naive 1](/images//day19/naive1.png)
+![Naive 2](/images//day19/naive2.png)
+![Naive 3](/images//day19/naive3.png)
+![Naive 4](/images//day19/naive4.png)
+
+**Great explanation on Naive Bayes**
+
+- [Youtube video link](https://www.youtube.com/watch?v=O2L2Uv9pdDA)
