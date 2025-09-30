@@ -767,3 +767,69 @@ LangGraph provides prebuilt components for this:
 - [Dynamically select tools](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/#dynamically-select-tools)
 
 ---
+
+**Day 18**
+
+**Revising Maths concept**
+
+**Scalar**
+- A scalar is a number. It is a quantity that has a magnitude but has no direction
+
+**Vector**
+- A vector is an array of scalars, or simply a number list.
+
+![vector](/images//day18/vector.png)
+
+**Matrix**
+- A matrix is a rectangular array of scalars. 
+![matrix](/images//day18/matrix.png)
+
+**Identity matrix**
+- It is a square matrix whose diagonal elements are all 1, and other elements are 0.
+
+**Row vector**
+- A vector with only one row is called a row vector.
+
+**Column vector**
+- A vector with only one column is called a column vector.
+
+**Designing a text classifier**
+
+
+**Document and Label sample**
+
+![Document and label](images/day18/document_label.png)
+
+Each line of the corpus is a tuple of a piece of text (we simply call it a document) and a label that indicates whether the text is about food or not. We call such tuples samples, or more precisely labeled samples.
+
+Next, let us assume that we have a classifier that learns from those samples the way of labeling documents. The classifier is then used to label every new document as “Food” or “Not-Food”. For example, for the text
+- Fruit is not my favorite but I can enjoy it.
+The classifier would categorize it as “Food”.
+
+**Modern classifier**
+
+Modern classifiers are not a system comprising a set of hand-crafted rules. They instead model the classification problem in a probabilistic manner, making it possible to learn the ability of classification from large-scale labeled data.
+
+![problem statement](images/day18/problem_statement.png)
+
+**Problems in designing text classifier**
+
+- The first problem we confront in designing text classification models is how to represent a document.
+
+**The bag-of-words (BOW) model**
+
+- The bag-of-words model is a feature-based model of representing documents.
+
+**Feature in ML**
+
+One can define a feature not only as some concrete attribute, such as a name and a gender, but also as a quantity that is countable for machine learning systems, such as a real number
+
+**In bag-of-words, feature = occurrence times**
+
+![bag of word](/images/day18/bag-of-word.png)
+
+- The bag-of-words model defines a vector space6. In this space, the similarity of two vectors is measured in some way like dot-product. It helps when one wants to establish the relationship between documents — two documents with more overlapping words are more similar.
+
+
+- [Book](https://github.com/NiuTrans/NLPBook)
+- [Foundation of ML Book](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter1.pdf)
