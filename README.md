@@ -40,6 +40,7 @@ Originally, I started my Computer Science journey with web development.
 | 2 | **Introduction to Machine Learning** | Ethem Alpaydin | [Google Books](https://www.google.co.in/books/edition/Introduction_to_Machine_Learning/1k0_-WroiqEC?hl=en&gbpv=0) |
 | 3 | **LLMs from Scratch** | Sebastian Raschka | [GitHub Repository](https://github.com/rasbt/LLMs-from-scratch) |
 | 4 | **Understanding Reasoning LLMs** | Sebastian Raschka | [Substack Article](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) |
+| 5 | **Foundations of Machine Learning** | Tong Xiao and Jingbo Zhu | [Foundations of Machine Learning](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter1.pdf) |
 
 ### Courses & Tutorials
 | # | Title | Platform/Author | Link |
