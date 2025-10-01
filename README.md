@@ -20,6 +20,7 @@ Originally, I started my Computer Science journey with web development.
 | 7 | **Q-Learning Implementation** | From-scratch implementation of Q-learning algorithm in Python for educational purposes | - | [Q-Learning Implementation](https://github.com/thinley4/Implementing-Q-learning) |
 | 8 | **Weather Agent** | A weather forecasting agent built with LangChain and Google's Gemini AI model | - | [Weather Agent](https://github.com/thinley4/Weather-Agent) |
 | 9 | **Multiplication tool** | Integrating tool with LLM | - | [Multiplication tool](https://github.com/thinley4/Multiplication-tool) |
+| 10 | **Naive-Bayes-Spam-Detection** | Implements a Naive Bayes classifier to detect spam messages in SMS text | - | [Naive-Bayes-Spam-Detection](https://github.com/thinley4/Naive-Bayes-Spam-Detection) |
 
 ---
 
@@ -855,5 +856,20 @@ Sources:
 **Great explanation on Naive Bayes**
 
 - [Youtube video link](https://www.youtube.com/watch?v=O2L2Uv9pdDA)
+
+---
+
+**Day 20**
+
+**Naive Bayes Spam Detection Project**
+
+A machine learning project that implements a Naive Bayes classifier to detect spam messages in SMS text data. This project uses scikit-learn's MultinomialNB algorithm combined with feature engineering to achieve effective spam classification.
+
+**Output**
+
+![Naive bayes spam](/images/day20/naive_spam.png)
+
+**Project Github Link**
+- [Project Link](https://github.com/thinley4/Naive-Bayes-Spam-Detection)
 
 ---
