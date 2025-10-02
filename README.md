@@ -873,3 +873,31 @@ A machine learning project that implements a Naive Bayes classifier to detect sp
 - [Project Link](https://github.com/thinley4/Naive-Bayes-Spam-Detection)
 
 ---
+
+**Day 21**
+
+**What is an estimator in ml?**
+
+An algorithm or function that takes input data and provides an estimate of an unknown parameter or function, often a target variable, to make predictions or train a model.
+
+Two major types of models in NLP pre-training:
+- Sequence Encoding Models
+- Sequence Generation Models
+
+![Diagram 1](images/day21/diagram1.png)
+
+**Single-layer perceptrons**
+
+Single-layer perceptrons (or perceptrons for short) may be the simplest neural networks that have been developed for practical uses. Often, it is thought of as a biologically-inspired program that transforms some input to some output. **A perceptron comprises a number of neurons connecting with input and output variables**. **Below figure shows a perceptron where there is only one neuron. In this example, there are two real-valued variables x1 and x2 for input and a binary variable y for output.**
+
+![perceptron 1](images/day21/perceptron1.png)
+![perceptron 2](images/day21/perceptron2.png)
+
+**Activation function**
+
+There are many different ways to perform activation. For example, we can use the Softmax function if we want a probability distribution-like output; we can use the Sigmoid function if we want a monotonic, continuous, easy-to-optimize output; we can use the ReLU function if we want a ramp-shaped output.
+
+**Sources**
+- [Neural Networks and Large Language Models](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter2.pdf)
+
+---
