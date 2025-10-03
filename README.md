@@ -968,13 +968,13 @@ Sources:
 
 **Day 23 (The Chain Rule)**
 
-**If someone say he is this much weight then we can predict his height.**
+**If someone says he is this much weight then we can predict his height by refering to the line.**
 
 ![c1](images/day23/c1.png)
 
 **Chain rule in maths**
 
-![c2](images/day23/c2.png)
+![c2](images/day23/c2.jpeg)
 
 ![c3](images/day23/c3.png)
 
