@@ -937,7 +937,7 @@ The layers of Nodes between input and output nodes are called hidden layers.
 
 **How green squiggle (line / curve to connect data) is drawn?**
 
-![n9](images/day22/n9.png)
+![n9](images/day22/n9.jpeg)
 
 **Finally green squiggle made**
 
