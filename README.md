@@ -962,3 +962,21 @@ The layers of Nodes between input and output nodes are called hidden layers.
 Sources:
 - [Foundations of Neural Network](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter2.pdf)
 - [Youtube video:- The Essential Main Ideas of Neural Networks](https://www.youtube.com/watch?v=CqOfi41LfDw)
+
+
+---
+
+**Day 23 (The Chain Rule)**
+
+**If someone say he is this much weight then we can predict his height.**
+
+![c1](images/day23/c1.png)
+
+**Chain rule in maths**
+
+![c2](images/day23/c2.png)
+
+![c3](images/day23/c3.png)
+
+Sources:
+- [Youtube video link – Chain Rule](https://www.youtube.com/watch?v=wl1myxrtQHQ)
