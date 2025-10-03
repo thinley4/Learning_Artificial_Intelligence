@@ -58,6 +58,7 @@ Originally, I started my Computer Science journey with web development.
 | 9 | **Machine Learning Specialization – Andrew Ng (Autumn 2018)** | Standford | [Link](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) |
 | 10 | **Build an LLM from Scratch** | Sebastian Raschka | [PlayList](https://www.youtube.com/watch?v=yAcWnfsZhzo&list=PLTKMiZHVd_2Licpov-ZK24j6oUnbhiPkm&index=8) |
 | 11 | **Hands on Reinforcement Learning** | Vizuara | [Link](https://www.youtube.com/watch?v=wz141j9qIaU) |
+| 12 | **Neural Networks / Deep Learning** | StatQuest with Josh Starmer | [Playlist Neural Networks](https://www.youtube.com/watch?v=zxagGtF9MeU&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1) |
 
 ### Other Resources
 | # | Topic | Link |
@@ -1000,3 +1001,6 @@ Sum of the Squared Residuals & Loss Function (Residuals – something that remai
 Sources:
 - [Youtube video link – The Chain Rule](https://www.youtube.com/watch?v=wl1myxrtQHQ)
 - [Youtube video link – Gradient descent](https://www.youtube.com/watch?v=sDv4f4s2SB8)
+
+---
+
