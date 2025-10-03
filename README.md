@@ -989,13 +989,13 @@ Some steps in gradient descent:
 2. Use gradient descent to find optimal value for the Intercept
 3. Pick random value for Intercept.
 
-![g2](images/day23/g2.png)
+![g2](images/day23/g2.jpeg)
 
 Sum of the Squared Residuals & Loss Function (Residuals – something that remains or left over)
 
 ![g3](images/day23/g3.png)
 
-![g4](images/day23/g4.png)
+![g4](images/day23/g4.jpeg)
 
 Sources:
 - [Youtube video link – The Chain Rule](https://www.youtube.com/watch?v=wl1myxrtQHQ)
