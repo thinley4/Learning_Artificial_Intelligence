@@ -901,3 +901,64 @@ There are many different ways to perform activation. For example, we can use the
 - [Neural Networks and Large Language Models](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter2.pdf)
 
 ---
+
+**Day 22 (Understanding Neural Network)**
+
+**Neural Network**
+
+- In this multi-layer neural network, the output of every neuron of a layer is connected to all neurons of the following layer. So the network is fully connected.
+- Depth of a neural network is measured in terms of the number of layers. It is called model depth sometimes.
+- A common measure for the width of a layer is the number of neurons in the layer.
+- Stacking layers results in a very common kind of neural network — **feed-forward neural networks (FFNNs).**
+- These networks are called “feed-forward” because there are no cycles in connections between layers and all the data moves in one direction.
+
+
+![n1](images/day22/n1.png)
+- Neural Network can fit squiggle to the data no matter how complex the data is.
+
+![n2](images/day22/n2.png)
+- Neural Network consists of nodes and connection between the nodes.
+- The number along each connection represent parameter values that were estimated when this Neural Network was fit to the data.
+
+![n3](images/day22/n3.png)
+![n4](images/day22/n4.png)
+![n5](images/day22/n5.png)
+![n6](images/day22/n6.png)
+![n7](images/day22/n7.png)
+
+**Activation function**
+
+From the above diagram, I understood that activation function are just the line of various shape to connection data.
+The curved or bent lines are called Activation functions.
+
+The layers of Nodes between input and output nodes are called hidden layers.
+
+![n8](images/day22/n8.png)
+
+**How green squiggle (line / curve to connect data) is drawn?**
+
+![n9](images/day22/n9.png)
+
+**Finally green squiggle made**
+
+![n10](images/day22/n10.png)
+
+**Parameter that we multiply are called weights**
+
+![n11](images/day22/n11.png)
+
+**Parameter that we add are called biases**
+
+![n12](images/day22/n12.png)
+
+**Activation function**
+
+![n13](images/day22/n13.png)
+
+**NN can fit a green squiggle to just about any dataset, no matter how complicated.**
+
+![n14](images/day22/n14.png)
+
+Sources:
+- [Foundations of Neural Network](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter2.pdf)
+- [Youtube video:- The Essential Main Ideas of Neural Networks](https://www.youtube.com/watch?v=CqOfi41LfDw)
