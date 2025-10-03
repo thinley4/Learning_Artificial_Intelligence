@@ -978,5 +978,25 @@ Sources:
 
 ![c3](images/day23/c3.png)
 
+**Gradient Descent**
+
+How Gradient descent can fit a line to data by finding the optimal values for the **Intercept and the Slope.**
+
+![g1](images/day23/g1.png)
+
+Some steps in gradient descent:
+1. Put 0.64 as a slope
+2. Use gradient descent to find optimal value for the Intercept
+3. Pick random value for Intercept.
+
+![g2](images/day23/g2.png)
+
+Sum of the Squared Residuals & Loss Function (Residuals – something that remains or left over)
+
+![g3](images/day23/g3.png)
+
+![g4](images/day23/g4.png)
+
 Sources:
-- [Youtube video link – Chain Rule](https://www.youtube.com/watch?v=wl1myxrtQHQ)
+- [Youtube video link – The Chain Rule](https://www.youtube.com/watch?v=wl1myxrtQHQ)
+- [Youtube video link – Gradient descent](https://www.youtube.com/watch?v=sDv4f4s2SB8)
