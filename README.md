@@ -1004,3 +1004,79 @@ Sources:
 
 ---
 
+**Day 24 (Gradient Descent, Step-by-Step)**
+
+Residual = Observed height – predicted height
+Adding weight from the diagram
+
+![h1](images/day24/h1.png)
+
+**Sum of square residual** is one type of **loss function**
+
+![h2](images/day24/h2.png)
+
+**Gradient descent Algorithm**
+
+![h3](images/day24/h3.png)
+
+![h4](images/day24/h4.png)
+
+When we have millions of data points, it can take a long time.
+
+So there is a thing called **Stochastic Gradient Descent** that uses a randomly selected subset of the data at every step rather than the full dataset.
+This reduces the time spent calculating the derivatives of Loss Function.
+
+Source:
+- [YouTube Gradient Descent](https://www.youtube.com/watch?v=sDv4f4s2SB8)
+
+---
+
+**Day 25 (Backpropagation Main Ideas)**
+
+**Backpropagation starts from last by assuming optimal parameter values.**
+
+![b1](images/day25/b1.png)
+
+We get a green squiggle by the help of 4 curves.
+4 curves are made by setting the values of x and y coordinates. 
+Maths is given below
+
+![b2](images/day25/b2.jpeg)
+
+We give (b3 = 0) as an initial value
+
+![b3](images/day25/b3.png)
+
+We update b3 (bias) value to (b3 = 1), and got SSR value 7.8 (SSR = 7.8). Which is optimal than (b3 = 0, SSR = 20.4). 
+
+After updating b3 continuously, we can take optimal SSR value which is of course closer to ‘0’.
+
+b3 = 0, SSR = 20.4
+b3 = 1, SSR = 7.8
+.
+.
+
+![b4](images/day25/b4.png)
+
+Summation notation
+
+![b5](images/day25/b5.png)
+
+Green is the sum of the blue and orange curves.
+
+green squiggle = blue + orange + b3
+
+![b6](images/day25/b6.png)
+
+Derivate of SSR by b3
+
+![b7](images/day25/b7.png)
+
+Got derivates of both the parts
+
+![b8](images/day25/b8.png)
+
+Source:
+- [YouTube Link Backpropagation Main Ideas](https://www.youtube.com/watch?v=IN2XmBhILt4&t=26s)
+
+---
