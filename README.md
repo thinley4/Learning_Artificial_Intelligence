@@ -33,6 +33,8 @@ Originally, I started my Computer Science journey with web development.
 | 2 | **ReAct: Synergizing Reasoning and Acting in Language Models** | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
 | 3 | **Foundations of Large Language Models** | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
 | 4 | **DeepSeek-R1** | [arxiv.org/abs/2501.12948](https://arxiv.org/pdf/2501.12948) |
+| 5 | **Diffusion Models** | [https://arxiv.org/abs/2209.00796](https://arxiv.org/abs/2209.00796) |
+
 
 ### Books & Articles
 | # | Title | Author/Source | Link |
@@ -43,6 +45,7 @@ Originally, I started my Computer Science journey with web development.
 | 4 | **Understanding Reasoning LLMs** | Sebastian Raschka | [Substack Article](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) |
 | 5 | **Foundations of Machine Learning** | Tong Xiao and Jingbo Zhu | [Foundations of Machine Learning](https://niutrans.github.io/NLPBook/chapters/nlp-book-chapter1.pdf) |
 | 6 | **Book on neural networks and large language models in NLP** | Tong Xiao and Jingbo Zhu | [Book on neural networks and large language models in NLP](https://github.com/NiuTrans/NLPBook?tab=readme-ov-file) |
+| 7 | **PaliGemma** | merve, Andreas P. Steiner, Pedro Cuenca | [PaliGemma](https://huggingface.co/blog/paligemma) |
 
 ### Courses & Tutorials
 | # | Title | Platform/Author | Link |
