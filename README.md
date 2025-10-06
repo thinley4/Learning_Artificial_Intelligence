@@ -34,6 +34,8 @@ Originally, I started my Computer Science journey with web development.
 | 3 | **Foundations of Large Language Models** | [arXiv:2501.09223](https://arxiv.org/pdf/2501.09223) |
 | 4 | **DeepSeek-R1** | [arxiv.org/abs/2501.12948](https://arxiv.org/pdf/2501.12948) |
 | 5 | **Diffusion Models** | [https://arxiv.org/abs/2209.00796](https://arxiv.org/abs/2209.00796) |
+| 6 | **Multimodal Large Language Models** | [https://arxiv.org/pdf/2408.01319v1](https://arxiv.org/pdf/2408.01319v1) |
+| 7 | **An Introduction to Vision-Language Modeling** | [https://arxiv.org/abs/2405.17247](https://arxiv.org/abs/2405.17247) |
 
 
 ### Books & Articles
@@ -1081,5 +1083,31 @@ Got derivates of both the parts
 
 Source:
 - [YouTube Link Backpropagation Main Ideas](https://www.youtube.com/watch?v=IN2XmBhILt4&t=26s)
+
+---
+
+**Day 26 (Cosine similarity & how do AI images and videos actually work?)**
+
+**Understanding cosine similarity**
+
+Finding cosine similarity of Hello and Hello World
+We need to find the angle difference between these 2 words.
+**Cosine similarity = Cos(Theta)**
+
+- Note:- Cosine similarity is only determined by angle not length.
+
+![c1](images/day26/c1.png)
+
+**Mathematical Formula for cosine similarity** 
+
+![c2](images/day26/c2.png)
+
+**Calculating cosine similarity**
+
+![c3](images/day26/c3.jpeg)
+
+Source:
+- [YouTube – Cosine Similarity](https://www.youtube.com/watch?v=e9U0QAFbfLI&t=13s)
+- [YouTube Link - But how do AI images and videos actually work?](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
 
 ---
