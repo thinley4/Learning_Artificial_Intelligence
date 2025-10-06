@@ -1150,3 +1150,34 @@ DDIM need Less number of compute to generate high quality image
 Source:
 - [YouTube Link - But how do AI images and videos actually work?](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
 - [DDIM Paper](https://arxiv.org/pdf/2010.02502)
+
+---
+
+**Day 28 (Gemini Robotics-ER 1.5)**
+
+**Gemini Robotics-ER 1.5 is a vision-language model (VLM)**
+
+It's designed for advanced reasoning in the physical world, allowing robots to interpret complex visual data, perform spatial reasoning.
+
+**Getting started: Finding objects in a scene**
+
+It shows how to pass an image and a text prompt to the model using the generateContent method to get a list of identified objects with their corresponding 2D points.
+
+Code:-
+
+![r1](images/day28/r1.png)
+
+Input image
+
+![r2](images/day28/r2.jpg)
+
+Final Output
+
+![r3](images/day28/r3_output.png)
+
+**Pointing to objects**
+
+Pointing and finding objects in images or video frames is a common use case for vision-and-language models (VLMs) in robotics. The following example asks the model to find specific objects within an image and return their coordinates in an image.
+
+Source:
+- [Gemini robotics doc](https://ai.google.dev/gemini-api/docs/robotics-overview#safety)
