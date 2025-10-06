@@ -36,6 +36,7 @@ Originally, I started my Computer Science journey with web development.
 | 5 | **Diffusion Models** | [https://arxiv.org/abs/2209.00796](https://arxiv.org/abs/2209.00796) |
 | 6 | **Multimodal Large Language Models** | [https://arxiv.org/pdf/2408.01319v1](https://arxiv.org/pdf/2408.01319v1) |
 | 7 | **An Introduction to Vision-Language Modeling** | [https://arxiv.org/abs/2405.17247](https://arxiv.org/abs/2405.17247) |
+| 8 | **Denoising Diffusion Probabilistic Models (DDPM)** | [https://arxiv.org/pdf/2006.11239](https://arxiv.org/pdf/2006.11239) |
 
 
 ### Books & Articles
@@ -1111,3 +1112,41 @@ Source:
 - [YouTube Link - But how do AI images and videos actually work?](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
 
 ---
+
+**Day 27 (Image & Video generation)**
+
+Vector difference between the man with hat and without 
+the hat is almost closer to hat value.
+
+**With hat – Without hat = x**
+
+List
+
+Hat = 0.165
+Cap = 0.113
+
+![i1](images/day26/i1.png)
+
+Adding noise DDPM
+
+![i4](images/day26/i4.png)
+![i2](images/day26/i2.png)
+
+Without adding noise 
+
+![i3](images/day26/i3.png)
+
+DDPM equation can be express as Stochastic differential equations
+
+Blue line (first expression) = motion of our point with vector field
+Grey line (second expression) = random motion
+
+![i5](images/day26/i5.png)
+
+DDIM need Less number of compute to generate high quality image
+
+![i6](images/day26/i6.png)
+
+Source:
+- [YouTube Link - But how do AI images and videos actually work?](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
+- [DDIM Paper](https://arxiv.org/pdf/2010.02502)
