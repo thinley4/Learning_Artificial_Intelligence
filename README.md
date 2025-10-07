@@ -1175,9 +1175,44 @@ Final Output
 
 ![r3](images/day28/r3_output.png)
 
-**Pointing to objects**
-
-Pointing and finding objects in images or video frames is a common use case for vision-and-language models (VLMs) in robotics. The following example asks the model to find specific objects within an image and return their coordinates in an image.
 
 Source:
 - [Gemini robotics doc](https://ai.google.dev/gemini-api/docs/robotics-overview#safety)
+
+---
+
+**Day 29**
+
+**Pointing to objects**
+
+**Pointing and finding objects in images or video frames is a common use case for vision-and-language models (VLMs) in robotics.** The following example asks the model to find specific objects within an image and **return their coordinates in an image.**
+
+Code:
+
+![p1](images/day29/p1.png)
+
+**Output**
+scissor, pen, envelope objects coordinates in an image.
+
+![p2](images/day29/p2.png)
+
+**Trajectories**
+
+- Gemini Robotics-ER 1.5 can generate sequences of points that define a trajectory, useful for guiding robot movement.
+
+- This example requests a trajectory to move a red pen to an organizer, including the starting point and a series of intermediate points.
+
+![p3](images/day29/p3.png)
+
+**Orchestration**
+
+**Making room for a laptop**
+
+This example shows how Gemini Robotics-ER can reason about a space. The prompt asks the model to identify which object needs to be moved to create space for another item.
+
+![p4](images/day29/p4.png)
+
+Source:
+- [Gemini robotics doc](https://ai.google.dev/gemini-api/docs/robotics-overview#safety)
+
+---
