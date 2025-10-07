@@ -1216,3 +1216,18 @@ Source:
 - [Gemini robotics doc](https://ai.google.dev/gemini-api/docs/robotics-overview#safety)
 
 ---
+
+**Day 30 (Understanding Images, CLIP, Relu)**
+
+CLIP model only go one direction (From image to vector embedding)
+We can get embedded vectors with image and text but can’t generate image and text with embedded vectors.
+
+![c1](images/day30/c1.png)
+
+**Understanding Relu activation function**
+
+![c2](images/day30/c2.jpeg)
+
+Source:
+- [CLIP, Image, Video](https://www.youtube.com/watch?v=iv-5mZ_9CPY&t=1839s)
+- [Relu Activation function](https://www.youtube.com/watch?v=68BZ5f7P94E&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9)
