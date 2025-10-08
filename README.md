@@ -1231,3 +1231,55 @@ We can get embedded vectors with image and text but can’t generate image and t
 Source:
 - [CLIP, Image, Video](https://www.youtube.com/watch?v=iv-5mZ_9CPY&t=1839s)
 - [Relu Activation function](https://www.youtube.com/watch?v=68BZ5f7P94E&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9)
+
+**Day 31**
+
+**Multiple Inputs and Outputs**
+
+Multiply with weight and sum with biases
+After that the value is pass to Relu and got y-axis as 1.6
+
+![m1](images/day31/m1.png)
+
+When petal width = (0, ..., 1) and sepal width = 0, 
+
+![m2](images/day31/m2.png)
+
+When petal width = (0, ..., 1) and sepal width = 0.2,
+
+![m3](images/day31/m3.png)
+
+When petal width = (0, ..., 1) and sepal width = (0, ...,1)
+
+![m4](images/day31/m4.png)
+
+When multiply with (-0.1), all point drop to surface level
+
+![m5](images/day31/m5.png)
+
+We do the same for orange dot and get the surface for orange.
+
+![m6](images/day31/m6.png)
+
+We sum the orange and blue dot and get the final value which is green dot
+
+![m7](images/day31/m7.png)
+
+We do for every single point and get the green surface
+
+![m8](images/day31/m8.png)
+
+We get the final output for Setosa
+
+![m9](images/day31/m9.png)
+
+When petal width is close to 1 (the widest), then we will get a high score for virginica.
+
+![m10](images/day31/m10.png)
+
+Now with petal and sepal width, we can predict which can the type of flower
+
+![m11](images/day31/m11.png)
+
+Source:
+- [Multiple inputs and outputs](https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=10)
