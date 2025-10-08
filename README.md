@@ -1283,3 +1283,60 @@ Now with petal and sepal width, we can predict which can the type of flower
 
 Source:
 - [Multiple inputs and outputs](https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=10)
+
+---
+
+**Day 32 (Image classification & CNN)**
+
+**CNN**
+
+Dot product, add bias and add in feature map 
+
+![c1](images/day32/c1.png)
+
+Slide over 1 pixel, however other CNN might move over 2 or more pixels
+Fill up the feature map by moving 1 pixel.
+
+![c2](images/day32/c2.png)
+
+Apply Relu activation
+It results in all negative number to ‘0’.
+F(x) = max(0, x)
+
+![c3](images/day32/c3.png)
+
+New feature map with max pooling (find maximum value in each area)
+
+![c4](images/day32/c4.png)
+
+New feature map is converted into 4 inputs and passed in neural network with 2 outputs
+
+![c5](images/day32/c5.png)
+
+Multiply with weights and bias
+Got ‘0.34’ as y-coordinates from Relu activation function
+
+![c6](images/day32/c6.png)
+
+Multiply with weight and bias
+Final output 0.99 which is 1
+
+![c7](images/day32/c7.png)
+
+When picture is of letter ‘O’
+CNN predicts as letter ‘O’ by giving it 1
+
+![c8](images/day32/c8.png)
+
+Filter or Kernel
+
+![c9](images/day32/c9.png)
+![c10](images/day32/c10.png)
+![c11](images/day32/c11.png)
+
+Also got final output for ‘X’ Image
+
+![c12](images/day32/c12.png)
+
+Source:
+-[Image classification & CNN](https://www.youtube.com/watch?v=HGwBXDKFk9I&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=14)
