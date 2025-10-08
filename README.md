@@ -65,6 +65,7 @@ Originally, I started my Computer Science journey with web development.
 | 10 | **Build an LLM from Scratch** | Sebastian Raschka | [PlayList](https://www.youtube.com/watch?v=yAcWnfsZhzo&list=PLTKMiZHVd_2Licpov-ZK24j6oUnbhiPkm&index=8) |
 | 11 | **Hands on Reinforcement Learning** | Vizuara | [Link](https://www.youtube.com/watch?v=wz141j9qIaU) |
 | 12 | **Neural Networks / Deep Learning** | StatQuest with Josh Starmer | [Playlist Neural Networks](https://www.youtube.com/watch?v=zxagGtF9MeU&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1) |
+| 13 | **Deep reinforcement learning (deep RL)** | OpenAI | [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/user/introduction.html) |
 
 ### Other Resources
 | # | Topic | Link |
@@ -1328,7 +1329,7 @@ CNN predicts as letter ‘O’ by giving it 1
 
 ![c8](images/day32/c8.png)
 
-Filter or Kernel
+Filter or Kernel (How filter is made)
 
 ![c9](images/day32/c9.png)
 ![c10](images/day32/c10.png)
@@ -1339,4 +1340,7 @@ Also got final output for ‘X’ Image
 ![c12](images/day32/c12.png)
 
 Source:
--[Image classification & CNN](https://www.youtube.com/watch?v=HGwBXDKFk9I&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=14)
+- [Image classification & CNN](https://www.youtube.com/watch?v=HGwBXDKFk9I&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=14)
+
+---
+
