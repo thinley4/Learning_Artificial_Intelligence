@@ -66,6 +66,8 @@ Originally, I started my Computer Science journey with web development.
 | 11 | **Hands on Reinforcement Learning** | Vizuara | [Link](https://www.youtube.com/watch?v=wz141j9qIaU) |
 | 12 | **Neural Networks / Deep Learning** | StatQuest with Josh Starmer | [Playlist Neural Networks](https://www.youtube.com/watch?v=zxagGtF9MeU&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1) |
 | 13 | **Deep reinforcement learning (deep RL)** | OpenAI | [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/user/introduction.html) |
+| 14 | **Reinforcement Learning - Developing Intelligence** | deeplizard | [Course series](https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv) |
+| 15 | **Deep Reinforcement Learning Course by Thomas Simonini** | huggingface & Thomas Simonini | [Course link](https://huggingface.co/learn/deep-rl-course/unit0/introduction) |
 
 ### Other Resources
 | # | Topic | Link |
