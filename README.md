@@ -1346,3 +1346,41 @@ Source:
 
 ---
 
+**Day 33 (Continuous control RL - actor-critic, DDPG, PPO, SAC)**
+
+**Explain Continuous control RL?**
+
+An agent's ability to produce actions that are not limited to a finite set of choices but instead can be any value within a range, such as motor torques or steering angles. 
+
+Unlike discrete actions (e.g., "left" or "right"), continuous actions require an agent to make fine-grained adjustments to achieve a goal in a dynamic environment. 
+
+Algorithms like Deep Deterministic Policy Gradient (DDPG), Proximal Policy Optimization (PPO), and Soft Actor-Critic (SAC) are used to learn these continuous control policies by optimizing continuous outputs based on rewards received from the environment.
+
+**Markov Decision Process (MDP)**
+
+Markov Property implies that our agent needs **only the current state to decide** what action to take and **not the history of all the states and actions** they took before.
+
+**Action Space types**
+
+**Discrete space: the number of possible actions is finite.**
+
+- In Super Mario Bros, we have only 4 possible actions: left, right, up (jumping) and down (crouching).
+Continuous space: the number of possible actions is infinite.
+- A Self Driving Car agent has an infinite number of possible actions since it can turn left 20°, 21,1°, 21,2°, honk, turn right 20°…
+
+**The Policy π: the agent’s brain**
+
+The Policy π is the brain of our Agent, it’s the function that tells us what action to take given the state we are in. So it defines the agent’s behavior at a given time.
+
+**There are two approaches to train our agent to find this optimal policy π*:**
+
+- Directly, by teaching the agent to learn which action to take, given the current state: Policy-Based Methods.
+- Indirectly, teach the agent to learn which state is more valuable and then take the action that leads to the more valuable states: Value-Based Methods.
+
+**Trained model and pushed in huggingface**
+
+![d1](images/day33/d1.png)
+
+Source:
+- [Deep Reinforcement Learning Course by Thomas Simonini](https://huggingface.co/learn/deep-rl-course/unit1/rl-framework)
+- [Trained model huggingface](https://huggingface.co/Thinley444/Lunar-lander)
