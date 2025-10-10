@@ -1384,3 +1384,19 @@ The Policy π is the brain of our Agent, it’s the function that tells us what 
 Source:
 - [Deep Reinforcement Learning Course by Thomas Simonini](https://huggingface.co/learn/deep-rl-course/unit1/rl-framework)
 - [Trained model huggingface](https://huggingface.co/Thinley444/Lunar-lander)
+
+---
+
+**Day 34**
+
+Today I learned to:
+
+- Push my trained model in huggingface.
+- Use other trained model from huggingface using repo id.
+
+Source:
+- [Detail course](https://huggingface.co/learn/deep-rl-course/unit1/hands-on)
+- [Use trained model huggingface](https://github.com/thinley4/Minimal-Lunar-Lander-DQN/blob/main/use_model_huggingface.py)
+- [Use saved model](https://github.com/thinley4/Minimal-Lunar-Lander-DQN/blob/main/use_saved_mode.py)
+
+---
