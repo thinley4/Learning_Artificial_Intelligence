@@ -1416,7 +1416,7 @@ It determines the value of being at a particular state and taking a specific act
 - Trains Q-Function, an action-value function that encoded, in internal memory, by a Q-table that contains all the state-action pair values.
 - Given a state and action, our Q-Function will search the Q-table for the corresponding value.
 
-[Q-table](images/day35/q1.png)
+![Q-table](images/day35/q1.png)
 
 - When the training is done,we have an optimal Q-Function, so an optimal Q-Table.
 - And if we have an optimal Q-function, we have an optimal policy, since we know for, each state, the best action to take.
@@ -1475,8 +1475,8 @@ The exploration related hyperparamters are some of the most important ones.
 
 - [Huggingface Q-learning agent frozen lake](https://huggingface.co/Thinley444/q-FrozenLake-v1-4x4-noSlippery)
 - [Agent Training code](https://github.com/thinley4/FrozenLake-Q-Learning)
-- This implementation is based on the Hugging Face Deep Reinforcement Learning Course:
-[Deep RL course](https://huggingface.co/learn/deep-rl-course/unit2/hands-on)
+This implementation is based on the Hugging Face Deep Reinforcement Learning Course:
+- [Deep RL course](https://huggingface.co/learn/deep-rl-course/unit2/hands-on)
 
 ---
 
@@ -1486,11 +1486,11 @@ Training Taxi-v3 environment
 
 Before training Q-table
 
-[before training](images/day37/t1.png)
+![before training](images/day37/t1.png)
 
 After training Q-table
 
-[After training](images/day37/t2.png)
+![After training](images/day37/t2.png)
 
 - [Huggingface taxi-v3](https://huggingface.co/Thinley444/Taxi-v3)
 
