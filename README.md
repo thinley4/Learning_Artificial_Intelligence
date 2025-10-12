@@ -21,6 +21,7 @@ Originally, I started my Computer Science journey with web development.
 | 8 | **Weather Agent** | A weather forecasting agent built with LangChain and Google's Gemini AI model | - | [Weather Agent](https://github.com/thinley4/Weather-Agent) |
 | 9 | **Multiplication tool** | Integrating tool with LLM | - | [Multiplication tool](https://github.com/thinley4/Multiplication-tool) |
 | 10 | **Naive-Bayes-Spam-Detection** | Implements a Naive Bayes classifier to detect spam messages in SMS text | - | [Naive-Bayes-Spam-Detection](https://github.com/thinley4/Naive-Bayes-Spam-Detection) |
+| 11 | **Q-Learning Agent playing1 FrozenLake-v1** | This is a trained model of a Q-Learning agent playing FrozenLake-v1 | - | [Huggingface](https://huggingface.co/Thinley444/q-FrozenLake-v1-4x4-noSlippery) |
 
 ---
 
@@ -1398,5 +1399,82 @@ Source:
 - [Detail course](https://huggingface.co/learn/deep-rl-course/unit1/hands-on)
 - [Use trained model huggingface](https://github.com/thinley4/Minimal-Lunar-Lander-DQN/blob/main/use_model_huggingface.py)
 - [Use saved model](https://github.com/thinley4/Minimal-Lunar-Lander-DQN/blob/main/use_saved_mode.py)
+
+---
+
+**Day 35 (Q Learning From scratch, FrozenLake-v1 and Taxi-v3)**
+
+**Action-value function**
+
+It determines the value of being at a particular state and taking a specific action at that state.
+
+**A small recap of Q-Learning**
+
+**Q-Learning is the RL algorithm that:**
+
+- Trains Q-Function, an action-value function that encoded, in internal memory, by a Q-table that contains all the state-action pair values.
+- Given a state and action, our Q-Function will search the Q-table for the corresponding value.
+
+[Q-table](images/day35/q1.png)
+
+- When the training is done,we have an optimal Q-Function, so an optimal Q-Table.
+- And if we have an optimal Q-function, we have an optimal policy, since we know for, each state, the best action to take.
+
+I read the article on **Meta Superintelligence’s surprising first paper** and read overview of paper from MSI.
+
+- [Article Meta Superintelligence’s surprising first paper](https://paddedinputs.substack.com/p/meta-superintelligences-surprising)
+- [REFRAG: Rethinking RAG based Decoding Paper](https://arxiv.org/abs/2509.01092)
+
+---
+
+**Day 36 (Q Learning From scratch, FrozenLake-v1 and Taxi-v3)**
+
+**Train Q-Learning agent**
+
+We can have two sizes of environment:
+
+- map_name="4x4": a 4x4 grid version
+- map_name="8x8": a 8x8 grid version
+
+The action space (the set of possible actions the agent can take) is discrete with 4 actions available 🎮:
+- 0: GO LEFT
+- 1: GO DOWN
+- 2: GO RIGHT
+- 3: GO UP
+
+Reward function 💰:
+
+- Reach goal: +1
+- Reach hole: 0
+- Reach frozen: 0
+
+**Define Greedy Policy**
+
+Remember we have two policies since Q-Learning is an off-policy algorithm. This means we're using a different policy for acting and updating the value function.
+
+- Epsilon-greedy policy (acting policy)
+- Greedy-policy (updating policy)
+The greedy policy will also be the final policy we'll have when the Q-learning agent completes training. The greedy policy is used to select an action using the Q-table.
+
+**Define the epsilon-greedy policy**
+
+Epsilon-greedy is the training policy that handles the exploration/exploitation trade-off.
+The idea with epsilon-greedy:
+
+- With probability 1 - ɛ : we do exploitation (i.e. our agent selects the action with the highest state-action pair value).
+- With probability ɛ: we do exploration (trying a random action).
+As the training continues, we progressively reduce the epsilon value since we will need less and less exploration and more exploitation.
+
+**Define the hyperparameters**
+
+The exploration related hyperparamters are some of the most important ones.
+
+- We need to make sure that our agent explores enough of the state space to learn a good value approximation. To do that, we need to have progressive decay of the epsilon.
+- If you decrease epsilon too fast (too high decay_rate), you take the risk that your agent will be stuck, since your agent didn't explore enough of the state space and hence can't solve the problem.
+
+- [Huggingface Q-learning agent frozen lake](https://huggingface.co/Thinley444/q-FrozenLake-v1-4x4-noSlippery)
+- [Agent Training code](https://github.com/thinley4/FrozenLake-Q-Learning)
+- This implementation is based on the Hugging Face Deep Reinforcement Learning Course:
+[Deep RL course](https://huggingface.co/learn/deep-rl-course/unit2/hands-on)
 
 ---
