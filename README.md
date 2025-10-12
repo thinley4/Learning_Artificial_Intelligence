@@ -1492,6 +1492,9 @@ After training Q-table
 
 ![After training](images/day37/t2.png)
 
+Learned to Load Model from Hub
+
+- [Project link](https://github.com/thinley4/Load-Model-From-Hub)
 - [Huggingface taxi-v3](https://huggingface.co/Thinley444/Taxi-v3)
 
 ---
