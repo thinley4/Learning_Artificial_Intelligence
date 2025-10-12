@@ -22,6 +22,7 @@ Originally, I started my Computer Science journey with web development.
 | 9 | **Multiplication tool** | Integrating tool with LLM | - | [Multiplication tool](https://github.com/thinley4/Multiplication-tool) |
 | 10 | **Naive-Bayes-Spam-Detection** | Implements a Naive Bayes classifier to detect spam messages in SMS text | - | [Naive-Bayes-Spam-Detection](https://github.com/thinley4/Naive-Bayes-Spam-Detection) |
 | 11 | **Q-Learning Agent playing1 FrozenLake-v1** | This is a trained model of a Q-Learning agent playing FrozenLake-v1 | - | [Huggingface](https://huggingface.co/Thinley444/q-FrozenLake-v1-4x4-noSlippery) |
+| 12 | **Q-Learning Agent playing1 Taxi-v3** | This is a trained model of a Q-Learning agent playing Taxi-v3 | - | [Huggingface](https://huggingface.co/Thinley444/Taxi-v3) |
 
 ---
 
@@ -1476,5 +1477,21 @@ The exploration related hyperparamters are some of the most important ones.
 - [Agent Training code](https://github.com/thinley4/FrozenLake-Q-Learning)
 - This implementation is based on the Hugging Face Deep Reinforcement Learning Course:
 [Deep RL course](https://huggingface.co/learn/deep-rl-course/unit2/hands-on)
+
+---
+
+**Day 37 (Taxi-v3)**
+
+Training Taxi-v3 environment
+
+Before training Q-table
+
+[before training](images/day37/t1.png)
+
+After training Q-table
+
+[After training](images/day37/t2.png)
+
+- [Huggingface taxi-v3](https://huggingface.co/Thinley444/Taxi-v3)
 
 ---
