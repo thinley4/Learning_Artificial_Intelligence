@@ -23,6 +23,7 @@ Originally, I started my Computer Science journey with web development.
 | 10 | **Naive-Bayes-Spam-Detection** | Implements a Naive Bayes classifier to detect spam messages in SMS text | - | [Naive-Bayes-Spam-Detection](https://github.com/thinley4/Naive-Bayes-Spam-Detection) |
 | 11 | **Q-Learning Agent playing1 FrozenLake-v1** | This is a trained model of a Q-Learning agent playing FrozenLake-v1 | - | [Huggingface](https://huggingface.co/Thinley444/q-FrozenLake-v1-4x4-noSlippery) |
 | 12 | **Q-Learning Agent playing1 Taxi-v3** | This is a trained model of a Q-Learning agent playing Taxi-v3 | - | [Huggingface](https://huggingface.co/Thinley444/Taxi-v3) |
+| 13 | **DQN Agent playing SpaceInvadersNoFrameskip-v4** | This is a trained model of a DQN agent playing SpaceInvadersNoFrameskip-v4 using the stable-baselines3 library and the RL Zoo. | - | [Huggingface](https://huggingface.co/Thinley444/dqn-SpaceInvadersNoFrameskip-v4) |
 
 ---
 
@@ -1498,3 +1499,38 @@ Learned to Load Model from Hub
 - [Huggingface taxi-v3](https://huggingface.co/Thinley444/Taxi-v3)
 
 ---
+
+**Day 38**
+
+This is the architecture of our Deep Q-Learning network:
+
+![d1](images/day38/d1.png)
+
+![d2](images/day38/d2.png)
+
+Why do we stack four frames together?
+
+![d3](images/day38/d3.png)
+
+**Hands-on**
+
+Train Deep Q-Learning agent to play Atari Games
+
+![d4](images/day38/d4.png)
+
+Adjusting hyper parameter to **train our deep q-learning agent to play space invaders**.
+
+![d5](images/day38/d5.png)
+
+Training a model
+
+![d6](images/day38/d6.png)
+
+Evaluate agent
+
+![d7](images/day38/d7.png)
+
+I have trained and uploaded my Deep Q-Learning agent using RL-Baselines-3 Zoo.
+
+- [Source code](https://huggingface.co/learn/deep-rl-course/unit3/hands-on)
+- [Huggingface DQN Agent playing SpaceInvadersNoFrameskip](https://huggingface.co/Thinley444/dqn-SpaceInvadersNoFrameskip-v4)
