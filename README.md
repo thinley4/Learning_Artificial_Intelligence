@@ -1594,7 +1594,46 @@ Reward Increased drastically
 Not tuned: -1158
 After tuned: -159
 
--[Tunned hyperparameter PPO – RL Zoo](https://github.com/DLR-RM/rl-baselines3-zoo/blob/master/hyperparams/ppo.yml)
+- [Tunned hyperparameter PPO – RL Zoo](https://github.com/DLR-RM/rl-baselines3-zoo/blob/master/hyperparams/ppo.yml)
 - [Detail Information on which algorithm to use](https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html#which-algorithm-should-i-use)
 
 ---
+
+**Day 40 (Policy Gradient with Pytorch)**
+
+We will create a script that allows to search for the best hyperparameters automatically.
+
+**Hyperparameters**
+
+![d1](images/day40/d1.png)
+
+Policy Gradient with Pytorch
+
+![d2](images/day40/d2.png)
+
+With policy-based methods, we want to optimize the policy directly without having an **intermediate step of learning a value function.**
+We’ll **learn about policy-based methods and study a subset of these methods called policy gradient.**
+
+We’ll implement our first **policy gradient algorithm called Monte Carlo Reinforce from scratch using PyTorch.**
+
+**What are the policy-based methods?**
+
+The main goal of Reinforcement learning is to
+
+**find the optimal policyπ∗*π*∗ that will maximize the expected cumulative reward.**
+
+A stochastic policy in reinforcement learning (RL)
+It dictates the probability of taking each action in a given state, rather than a single, predetermined action.
+
+**Value-based methods,**
+
+- The idea is that an optimal value function leads to an optimal policyπ∗
+- Our objective is to **minimize the loss between the predicted and target value** to approximate the true action-value function.
+
+**Policy-based methods**
+
+- The idea is **to parameterize the policy**.
+- Our objective then is **to maximize the performance of the parameterized policy using gradient ascent**.
+
+Source
+- [Policy Gradient](https://huggingface.co/learn/deep-rl-course/unit4/what-are-policy-based-methods#value-based-policy-based-and-actor-critic-methods)
