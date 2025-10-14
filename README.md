@@ -1534,3 +1534,67 @@ I have trained and uploaded my Deep Q-Learning agent using RL-Baselines-3 Zoo.
 
 - [Source code](https://huggingface.co/learn/deep-rl-course/unit3/hands-on)
 - [Huggingface DQN Agent playing SpaceInvadersNoFrameskip](https://huggingface.co/Thinley444/dqn-SpaceInvadersNoFrameskip-v4)
+
+---
+
+**Day 39 (Learning Optuna)**
+
+We’ll first try to optimize the parameters of the DQN studied in the last unit manually. We’ll then learn how to automate the search using Optuna.
+
+**Which algorithm should I use?**
+
+The first distinction comes from your action space, i.e., do you have discrete (e.g. LEFT, RIGHT, …) or continuous actions (ex: go to a certain speed)?
+Whether you can parallelized your training or not.
+
+Notes:
+
+```python
+# Define and train a A2C model
+# Verbosity level: 0 for no output, 1 for info messages, 2 for debug messages
+# seed: Generating a random number
+
+a2c_model = A2C("MlpPolicy", env_id, seed=0, verbose=0).learn(budget_pendulum)
+
+
+# Evaluate the train A2C model
+# n_envs where n_envs is number of environment copies running in parallel
+
+mean_reward, std_reward = evaluate_policy(a2c_model, eval_envs, n_eval_episodes=100, deterministic=True)
+print(f"A2C Mean episode reward: {mean_reward:.2f} +/- {std_reward:.2f}")
+```
+
+**What is on-policy?**
+
+On-policy methods are about learning from what you are currently doing. Imagine you're trying to teach a robot to navigate a maze. In on-policy learning, the robot learns based on the actions it is currently taking. It's like learning to cook by trying out different recipes yourself. 
+
+**What is off-policy?**
+
+Off-policy methods, on the other hand, are like learning from someone else's experience. In this approach, the robot might watch another robot navigate the maze and learn from its actions. It doesn't have to follow the same policy as the robot it's observing. It involves learning the value of the optimal policy independently of the agent's actions. These methods enable the agent to learn from observations about the optimal policy, even when it's not following it. This is useful for learning from a fixed dataset or a teaching policy.
+
+**In some cases training longer is not a solution**
+
+Training for “4000 steps (20 episodes)”
+
+![s1](images/day39/s1.png)
+
+Training Longer PPO
+
+![s2](images/day39/s2.png)
+
+Tuned Hyperparameters
+
+![s3](images/day39/s3.png)
+
+Reward Increased drastically
+
+![s4](images/day39/s4.png)
+
+**Result:**
+
+Not tuned: -1158
+After tuned: -159
+
+-[Tunned hyperparameter PPO – RL Zoo](https://github.com/DLR-RM/rl-baselines3-zoo/blob/master/hyperparams/ppo.yml)
+- [Detail Information on which algorithm to use](https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html#which-algorithm-should-i-use)
+
+---
