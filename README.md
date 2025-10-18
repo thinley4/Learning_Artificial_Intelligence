@@ -1637,3 +1637,31 @@ It dictates the probability of taking each action in a given state, rather than 
 
 Source
 - [Policy Gradient](https://huggingface.co/learn/deep-rl-course/unit4/what-are-policy-based-methods#value-based-policy-based-and-actor-critic-methods)
+
+---
+
+**Day 41**
+
+**Reinforce Algorithm**
+
+![r1](images/day41/r1.png)
+
+**What is Unity ML-Agents?**
+
+Unity ML-Agents is a toolkit for the game engine Unity that allows us to create environments using Unity or use pre-made environments to train our agents.
+
+**With Unity ML-Agents, you have six essential components:**
+
+- The first is the Learning Environment, which contains the Unity scene (the environment) and the environment elements (game characters).
+- The second is the Python Low-level API, which contains the low-level Python interface for interacting and manipulating the environment. It’s the API we use to launch the training.
+- Then, we have the External Communicator that connects the Learning Environment (made with C#) with the low level Python API (Python).
+- The Python trainers: the Reinforcement algorithms made with PyTorch (PPO, SAC…).
+- The Gym wrapper: to encapsulate the RL environment in a gym wrapper.
+- The PettingZoo wrapper: PettingZoo is the multi-agents version of the gym wrapper.
+
+**The observation space**
+
+- Regarding observations, we don’t use normal vision (frame), but we use raycasts.
+- Think of raycasts as lasers that will detect if they pass through an object.
+
+---
