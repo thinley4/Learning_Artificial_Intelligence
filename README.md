@@ -24,6 +24,7 @@ Originally, I started my Computer Science journey with web development.
 | 11 | **Q-Learning Agent playing1 FrozenLake-v1** | This is a trained model of a Q-Learning agent playing FrozenLake-v1 | - | [Huggingface](https://huggingface.co/Thinley444/q-FrozenLake-v1-4x4-noSlippery) |
 | 12 | **Q-Learning Agent playing1 Taxi-v3** | This is a trained model of a Q-Learning agent playing Taxi-v3 | - | [Huggingface](https://huggingface.co/Thinley444/Taxi-v3) |
 | 13 | **DQN Agent playing SpaceInvadersNoFrameskip-v4** | This is a trained model of a DQN agent playing SpaceInvadersNoFrameskip-v4 using the stable-baselines3 library and the RL Zoo. | - | [Huggingface](https://huggingface.co/Thinley444/dqn-SpaceInvadersNoFrameskip-v4) |
+| 14 | **A2C Agent playing PandaReachDense-v3** | Training is a robotic arm that needs to do controls (moving the arm and using the end-effector) | - | [Huggingface](https://huggingface.co/Thinley444/a2c-PandaReachDense-v3) |
 
 ---
 
@@ -1663,5 +1664,30 @@ Unity ML-Agents is a toolkit for the game engine Unity that allows us to create 
 
 - Regarding observations, we don’t use normal vision (frame), but we use raycasts.
 - Think of raycasts as lasers that will detect if they pass through an object.
+
+---
+
+**Day 42 (Actor-Critic methods)**
+
+It is a hybrid architecture combining value-based and Policy-Based methods that helps to stabilize the training by reducing the variance using:
+
+- An Actor that controls how our agent behaves (Policy-Based method)
+- A Critic that measures how good the taken action is (Value-Based method)
+
+To understand the Actor-Critic, imagine you’re playing a video game. You can play with a friend that will provide you with some feedback. You’re the Actor and your friend is the Critic.
+
+![ai](images/day42/a1.png)
+
+**This is the idea behind Actor-Critic. We learn two function approximations:**
+- A policy that controls how our agent acts:
+- A value function to assist the policy update by measuring how good the action taken is:
+
+**Training is a robotic arm that needs to do controls (moving the arm and using the end-effector).**
+
+[a2](images/day42/a2.png)
+
+- [Source code](https://huggingface.co/learn/deep-rl-course/unit6/hands-on)
+- Train A2C agent using Stable-Baselines3 in a robotic environment to move arm to the correct position.
+- [Huggingface A2C Agent](https://huggingface.co/Thinley444/a2c-PandaReachDense-v3) 
 
 ---
