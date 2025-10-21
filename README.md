@@ -1691,3 +1691,39 @@ To understand the Actor-Critic, imagine you’re playing a video game. You can p
 - [Huggingface A2C Agent](https://huggingface.co/Thinley444/a2c-PandaReachDense-v3) 
 
 ---
+
+**Day 43 (Multi-Agent System)**
+
+**Multi-Agent System**
+
+Since the beginning of this course, we learned to train agents in a single-agent system where our agent was alone in its environment: it was not cooperating or collaborating with other agents.
+
+But, as humans, we live in a multi-agent world. Our intelligence comes from interaction with other agents. And so, our goal is to create agents that can interact with other humans and other agents.
+
+- Multi-Agent example:- Football match
+
+**We have two solutions to design this multi-agent reinforcement learning system (MARL).**
+
+**Decentralized approach**
+
+![m1](images/day43/m1.png)
+
+The benefit is that since no information is shared between agents, these vacuums can be designed and trained like we train single agents.
+
+The idea here is that our training agent will consider other agents as part of the environment dynamics. Not as agents.
+
+**Centralized approach**
+
+![m2](images/day43/m2.png)
+
+**The intuition behind PPO**
+
+The idea with Proximal Policy Optimization (PPO) is that we want to improve the training stability of the policy by limiting the change you make to the policy at each training epoch: we want to avoid having too large of a policy update.
+
+With PPO, the idea is to constrain our policy update with a new objective function called the Clipped surrogate objective function that will constrain the policy change in a small range using a clip.
+
+**Implement PPO from scratch**
+
+- [PPO from scratch](https://colab.research.google.com/github/huggingface/deep-rl-class/blob/master/notebooks/unit8/unit8_part1.ipynb#scrollTo=-cf5-oDPjwf8)
+
+---
