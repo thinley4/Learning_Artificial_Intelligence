@@ -233,7 +233,7 @@ I built this **Reinforcement Learning project** using **Gymnasium** and **Stable
 
 From today, I will document my daily learning progress.
 
-**Day 1: Q-Learning**
+### Day 1: Q-Learning
 
 **Exploration vs. Exploitation**  
 - Balancing exploration (trying new actions) and exploitation (choosing known best actions) is crucial in reinforcement learning.  
@@ -263,7 +263,7 @@ From today, I will document my daily learning progress.
 
 ---
 
-**Day 2: Markov Decision Processes (MDPs)**
+### Day 2: Markov Decision Processes (MDPs)
 
 Markov decision processes give us a way to formalize sequential decision making
 
@@ -280,7 +280,7 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 
 ---
 
-**Day 3: Implementing Q-Learning in Python**
+### Day 3: Implementing Q-Learning in Python
 
 **Hands-on Q-Learning Implementation**
 - Implemented the Q-learning algorithm from scratch in Python to gain deeper intuitive understanding
@@ -298,7 +298,7 @@ The agent’s objective is to maximize the cumulative reward over time, not just
 
 ---
 
-**Day 4: Value Functions and Optimality in Reinforcement Learning**
+### Day 4: Value Functions and Optimality in Reinforcement Learning
 
 **Value Functions Overview**
 Value functions are functions of states, or of state-action pairs, that estimate how good it is for an agent to be in a given state, or how good it is for the agent to perform a given action in a given state.
@@ -324,7 +324,7 @@ It is the goal of reinforcement learning algorithms to find a policy that will y
 
 ---
 
-**Day 5**
+### Day 5
 
 **Experience Replay & Replay Memory**
 
@@ -369,7 +369,7 @@ So now, the first pass still occurs with the policy network. The second pass, ho
 
 
 
-**Day 6**
+### Day 6
 
 **Implementing the Simplest Policy Gradient**
 
@@ -397,7 +397,7 @@ def get_action(obs):
 
 ---
 
-**Day 7**
+### Day 7
 
 **2. Making the Loss Function.**
 
@@ -485,7 +485,7 @@ def train_one_epoch():
 
 ---
 
-**Day 8**
+### Day 8
 
 **Understanding Reasoning LLMs**
 - By Sebastian Raschka
@@ -514,7 +514,7 @@ When do we need a reasoning model? Reasoning models are designed to be good at c
 
 ---
 
-**Day 9**
+### Day 9
 
 A brief look at the DeepSeek training pipeline
 
@@ -548,7 +548,7 @@ For rewards, **instead of using a reward model trained on human preferences**, t
 
 ---
 
-**Day 10**
+### Day 10
 
 **Distillation**
 LLM distillation is a technique that creates smaller, more efficient large language models (LLMs) by transferring knowledge from a large, high-performing "teacher" model to a smaller "student" model. 
@@ -574,7 +574,7 @@ Mixture of Experts enable models to be pretrained with far less compute, which m
 
 ---
 
-**Day 11**
+### Day 11
 
 **Humanoid**
 
@@ -614,7 +614,7 @@ The 3D bipedal robot is designed to simulate a human.
 
 ---
 
-**Day 12**
+### Day 12
 
 
 **Recap**
@@ -639,7 +639,7 @@ Off-policy methods, on the other hand, are like learning from someone else's exp
 
 ---
 
-**Day 13**
+### Day 13
 
 **Why Multi-agent Systems?**
 
@@ -668,7 +668,7 @@ The ReAct framework can allow LLMs to interact with external tools to retrieve a
 
 ---
 
-**Day 14**
+### Day 14
 
 **What is HandOffs**
 
@@ -688,7 +688,7 @@ I implemented both architectures in code from [LangGraph](https://langchain-ai.g
 
 ---
 
-**Day 15**
+### Day 15
 
 **Following ReAct agent from scratch with Gemini 2.5 and LangGraph from Google AI for Developers**
 
@@ -712,7 +712,7 @@ I implemented both architectures in code from [LangGraph](https://langchain-ai.g
 
 ---
 
-**Day 16**
+### Day 16
 
 **What is Tools?**
 
@@ -757,7 +757,7 @@ I was able to make my custom tool and integrate with LLM model by following this
 
 ---
 
-**Day 17**
+### Day 17
 
 **How model is able to choose tools?**
 
@@ -785,7 +785,7 @@ LangGraph provides prebuilt components for this:
 
 ---
 
-**Day 18**
+### Day 18
 
 **Revising Maths concept**
 
@@ -854,7 +854,7 @@ Sources:
 
 ---
 
-**Day 19**
+### Day 19
 
 **Linear Classifiers**
 
@@ -873,7 +873,7 @@ Sources:
 
 ---
 
-**Day 20**
+### Day 20
 
 **Naive Bayes Spam Detection Project**
 
@@ -888,7 +888,7 @@ A machine learning project that implements a Naive Bayes classifier to detect sp
 
 ---
 
-**Day 21**
+### Day 21
 
 **What is an estimator in ml?**
 
@@ -916,7 +916,7 @@ There are many different ways to perform activation. For example, we can use the
 
 ---
 
-**Day 22 (Understanding Neural Network)**
+### Day 22 (Understanding Neural Network)
 
 **Neural Network**
 
@@ -980,7 +980,7 @@ Sources:
 
 ---
 
-**Day 23 (The Chain Rule)**
+### Day 23 (The Chain Rule)
 
 **If someone says he is this much weight then we can predict his height by refering to the line.**
 
@@ -1017,7 +1017,7 @@ Sources:
 
 ---
 
-**Day 24 (Gradient Descent, Step-by-Step)**
+### Day 24 (Gradient Descent, Step-by-Step)
 
 Residual = Observed height – predicted height
 Adding weight from the diagram
@@ -1044,7 +1044,7 @@ Source:
 
 ---
 
-**Day 25 (Backpropagation Main Ideas)**
+### Day 25 (Backpropagation Main Ideas)
 
 **Backpropagation starts from last by assuming optimal parameter values.**
 
@@ -1094,7 +1094,7 @@ Source:
 
 ---
 
-**Day 26 (Cosine similarity & how do AI images and videos actually work?)**
+### Day 26 (Cosine similarity & how do AI images and videos actually work?)
 
 **Understanding cosine similarity**
 
@@ -1120,7 +1120,7 @@ Source:
 
 ---
 
-**Day 27 (Image & Video generation)**
+### Day 27 (Image & Video generation)
 
 Vector difference between the man with hat and without 
 the hat is almost closer to hat value.
@@ -1160,7 +1160,7 @@ Source:
 
 ---
 
-**Day 28 (Gemini Robotics-ER 1.5)**
+### Day 28 (Gemini Robotics-ER 1.5)
 
 **Gemini Robotics-ER 1.5 is a vision-language model (VLM)**
 
@@ -1188,7 +1188,7 @@ Source:
 
 ---
 
-**Day 29**
+### Day 29
 
 **Pointing to objects**
 
@@ -1224,7 +1224,7 @@ Source:
 
 ---
 
-**Day 30 (Understanding Images, CLIP, Relu)**
+### Day 30 (Understanding Images, CLIP, Relu)
 
 CLIP model only go one direction (From image to vector embedding)
 We can get embedded vectors with image and text but can’t generate image and text with embedded vectors.
@@ -1239,7 +1239,7 @@ Source:
 - [CLIP, Image, Video](https://www.youtube.com/watch?v=iv-5mZ_9CPY&t=1839s)
 - [Relu Activation function](https://www.youtube.com/watch?v=68BZ5f7P94E&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9)
 
-**Day 31**
+### Day 31
 
 **Multiple Inputs and Outputs**
 
@@ -1293,7 +1293,7 @@ Source:
 
 ---
 
-**Day 32 (Image classification & CNN)**
+### Day 32 (Image classification & CNN)
 
 **CNN**
 
@@ -1350,7 +1350,7 @@ Source:
 
 ---
 
-**Day 33 (Continuous control RL - actor-critic, DDPG, PPO, SAC)**
+### Day 33 (Continuous control RL - actor-critic, DDPG, PPO, SAC)
 
 **Explain Continuous control RL?**
 
@@ -1391,7 +1391,7 @@ Source:
 
 ---
 
-**Day 34**
+### Day 34
 
 Today I learned to:
 
@@ -1405,7 +1405,7 @@ Source:
 
 ---
 
-**Day 35 (Q Learning From scratch, FrozenLake-v1 and Taxi-v3)**
+### Day 35 (Q Learning From scratch, FrozenLake-v1 and Taxi-v3)
 
 **Action-value function**
 
@@ -1430,7 +1430,7 @@ I read the article on **Meta Superintelligence’s surprising first paper** and 
 
 ---
 
-**Day 36 (Q Learning From scratch, FrozenLake-v1 and Taxi-v3)**
+### Day 36 (Q Learning From scratch, FrozenLake-v1 and Taxi-v3)
 
 **Train Q-Learning agent**
 
@@ -1482,7 +1482,7 @@ This implementation is based on the Hugging Face Deep Reinforcement Learning Cou
 
 ---
 
-**Day 37 (Taxi-v3)**
+### Day 37 (Taxi-v3)
 
 Training Taxi-v3 environment
 
@@ -1501,7 +1501,7 @@ Learned to Load Model from Hub
 
 ---
 
-**Day 38**
+### Day 38
 
 This is the architecture of our Deep Q-Learning network:
 
@@ -1538,7 +1538,7 @@ I have trained and uploaded my Deep Q-Learning agent using RL-Baselines-3 Zoo.
 
 ---
 
-**Day 39 (Learning Optuna)**
+### Day 39 (Learning Optuna)
 
 We’ll first try to optimize the parameters of the DQN studied in the last unit manually. We’ll then learn how to automate the search using Optuna.
 
@@ -1600,7 +1600,7 @@ After tuned: -159
 
 ---
 
-**Day 40 (Policy Gradient with Pytorch)**
+### Day 40 (Policy Gradient with Pytorch)
 
 We will create a script that allows to search for the best hyperparameters automatically.
 
@@ -1641,7 +1641,7 @@ Source
 
 ---
 
-**Day 41**
+### Day 41
 
 **Reinforce Algorithm**
 
@@ -1667,7 +1667,7 @@ Unity ML-Agents is a toolkit for the game engine Unity that allows us to create 
 
 ---
 
-**Day 42 (Actor-Critic methods)**
+### Day 42 (Actor-Critic methods)
 
 It is a hybrid architecture combining value-based and Policy-Based methods that helps to stabilize the training by reducing the variance using:
 
@@ -1692,7 +1692,7 @@ To understand the Actor-Critic, imagine you’re playing a video game. You can p
 
 ---
 
-**Day 43 (Multi-Agent System)**
+### Day 43 (Multi-Agent System)
 
 **Multi-Agent System**
 
@@ -1725,5 +1725,44 @@ With PPO, the idea is to constrain our policy update with a new objective functi
 **Implement PPO from scratch**
 
 - [PPO from scratch](https://colab.research.google.com/github/huggingface/deep-rl-class/blob/master/notebooks/unit8/unit8_part1.ipynb#scrollTo=-cf5-oDPjwf8)
+
+---
+
+### Day 44 (Deep RL Research)
+
+**Developing Research Project**
+
+- Start by exploring the literature to become aware of topics in the field.
+- If you’re looking for inspiration, or just want to get a rough sense of what’s out there, check out Spinning Up’s key papers list.
+- Find a paper that you enjoy on one of these subjects—something that inspires you—and read it thoroughly. 
+- Use the related work section and citations to find closely-related papers and do a deep dive in the literature. 
+- You’ll start to figure out where the unsolved problems are and where you can make an impact.
+
+**Approaches to idea-generation**
+
+Frame 1: Improving on an Existing Approach
+
+- This is the incrementalist angle, where you try to get performance gains in an established problem setting by tweaking an existing algorithm.
+
+Frame 2: Focusing on Unsolved Benchmarks
+
+- Instead of thinking about how to improve an existing method, you aim to succeed on a task that no one has solved before.
+
+Frame 3: Create a New Problem Setting
+
+- Instead of thinking about existing methods or current grand challenges, think of an entirely different conceptual problem that hasn’t been studied yet.
+- Avoid reinventing the wheel.
+
+**Model-based Vs Model-free RL**
+
+**Model-based RL:** 
+- The agent first builds an internal model of the environment, which predicts future states and rewards. It then uses this model to plan and simulate actions before acting in the real world. 
+
+**Model-free RL:** 
+- The agent skips the model-building step and learns directly from interacting with the environment. This can be simpler for environments where building an accurate model is difficult. 
+
+
+Source:
+- [Deep RL research detail Information](https://spinningup.openai.com/en/latest/spinningup/spinningup.html)
 
 ---
