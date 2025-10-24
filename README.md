@@ -1766,3 +1766,22 @@ Source:
 - [Deep RL research detail Information](https://spinningup.openai.com/en/latest/spinningup/spinningup.html)
 
 ---
+
+### Day 45 (Multitask RL)
+
+Most of these deep RL methods primarily focus on learning different tasks in isolation, making it challenging to utilize shared information between tasks to develop a generalized policy. 
+
+Multi-task reinforcement learning (MTRL) aims to master a set of RL tasks effectively. By leveraging the potential information sharing among different tasks, joint multi-task learning typically exhibits higher sample efficiency than training each task individually.
+
+**Challenge in MTRL**
+
+A significant challenge in MTRL lies in determining what information should be shared and how to share it effectively.
+
+For instance, someone who can ride a bicycle can quickly learn to ride a motorcycle by referring to related skills, such as operating controls, maintaining balance, and executing turns. Likewise, a motorcyclist adept in these skills can also quickly learn to ride a bicycle. This ability allows humans to efficiently master multiple tasks by selectively referring to skills previously learned.
+
+**Cross-Task Policy Guidance (CTPG)**
+
+CTPG is a generalized MTRL framework that can be combined with various existing parameter sharing methods. Among these, we choose several classical approaches and integrate them with CTPG, achieving significant improvement in sample efficiency and final performance on both manipulation and locomotion MTRL benchmarks.
+
+Source:
+- [Efficient Multi-task Reinforcement Learning with Cross-Task Policy Guidance](https://nips.cc/virtual/2024/poster/96712)
