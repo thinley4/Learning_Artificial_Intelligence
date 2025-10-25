@@ -41,6 +41,7 @@ Originally, I started my Computer Science journey with web development.
 | 6 | **Multimodal Large Language Models** | [https://arxiv.org/pdf/2408.01319v1](https://arxiv.org/pdf/2408.01319v1) |
 | 7 | **An Introduction to Vision-Language Modeling** | [https://arxiv.org/abs/2405.17247](https://arxiv.org/abs/2405.17247) |
 | 8 | **Denoising Diffusion Probabilistic Models (DDPM)** | [https://arxiv.org/pdf/2006.11239](https://arxiv.org/pdf/2006.11239) |
+| 9 | **Training language models to follow instructions with human feedback** | [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155) |
 
 
 ### Books & Articles
