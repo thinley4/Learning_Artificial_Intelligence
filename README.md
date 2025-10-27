@@ -1826,4 +1826,27 @@ Model generates multiple responses and human selects the best response.
 ![d6](images/day46/d6.png)
 
 Source:
-[Reinforcement Learning with Human Feedback (RLHF)](https://www.youtube.com/watch?v=qPN_XZcJf_s)
+- [Reinforcement Learning with Human Feedback (RLHF)](https://www.youtube.com/watch?v=qPN_XZcJf_s)
+
+---
+
+### Day 47
+
+**Stanford AI Club: Jason Wei on 3 Key Ideas in AI in 2025**
+
+![y1](images/day47/y1.png)
+
+**Note:** The **impact of AI will be seen earliest on tasks that are digital, easy for humans, and data abundant.**
+Implications:
+- Certain fields will be heavily accelerated by AI (eg: Software development)
+- Other fields will remain untouch(e.g., hairdressing)
+
+![summary](images/day47/y2.png)
+
+**AlphaEvolve**
+
+Understanding AlphaEvolve
+
+Source:
+- [Stanford AI Club: Jason Wei on 3 Key Ideas in AI in 2025](https://www.youtube.com/watch?v=b6Doq2fz81U)
+- [AlphaEvolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
