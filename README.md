@@ -42,6 +42,7 @@ Originally, I started my Computer Science journey with web development.
 | 7 | **An Introduction to Vision-Language Modeling** | [https://arxiv.org/abs/2405.17247](https://arxiv.org/abs/2405.17247) |
 | 8 | **Denoising Diffusion Probabilistic Models (DDPM)** | [https://arxiv.org/pdf/2006.11239](https://arxiv.org/pdf/2006.11239) |
 | 9 | **Training language models to follow instructions with human feedback** | [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155) |
+| 10 | **MimicKit: A Reinforcement Learning Framework for Motion Imitation and Control** | [https://arxiv.org/abs/2510.13794](https://arxiv.org/abs/2510.13794) |
 
 
 ### Books & Articles
@@ -1871,5 +1872,16 @@ The principles of statistics are the very pillars that uphold the structure of m
 
 Source:
 - [Intro to SML](https://www.datacamp.com/tutorial/unveiling-the-magic-of-statistical-machine-learning)
+
+---
+
+### Day 49 
+
+**Trying to understand MimicKit**
+
+This framework is intended to support research and applications in computer graphics and robotics by providing a unified training framework, along with standardized environment, agent, and data structures.
+
+- [Starter Guide](https://arxiv.org/abs/2510.13794)
+- [Code](https://github.com/xbpeng/MimicKit?tab=readme-ov-file)
 
 ---
