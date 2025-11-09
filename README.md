@@ -1885,3 +1885,13 @@ This framework is intended to support research and applications in computer grap
 - [Code](https://github.com/xbpeng/MimicKit?tab=readme-ov-file)
 
 ---
+
+### Day 50
+
+**DeepMimic**
+
+We show that well-known reinforcement learning (RL) methods can be adapted to learn robust control policies capable of imitating a broad range of example motion clips, while also learning complex recoveries, adapting to changes in morphology, and accomplishing userspecified goals.
+
+Our method handles keyframed motions, highly-dynamic actions such as motion-captured flips and spins, and retargeted motions. By combining a motion-imitation objective with a task objective, we can train characters that react intelligently in interactive settings, e.g., by walking in a desired direction or throwing a ball at a user-specified target. 
+
+- [DeepMimic](https://xbpeng.github.io/projects/DeepMimic/index.html)
